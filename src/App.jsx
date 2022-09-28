@@ -17,6 +17,7 @@ import './assets/css/responsive.css';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+const address = "0x39b730616b2Cf70953b88BAA1e67A70208e8a043";
 
 const App = () => {
   useEffect(() => {

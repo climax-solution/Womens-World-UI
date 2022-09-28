@@ -13,7 +13,7 @@ const FAQ = ({data}) => {
           <div className="row align-items-center">
             <div className="service-img-wrapper col-12 col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-12">
               <div className="image-box">
-                <img draggable="false" src="img/core-img/platform.png" className="center-block img-responsive phone-img" alt="" />
+                <img draggable="false" src="img/svg/faq.svg" className="center-block img-responsive phone-img" alt="" />
                 <img draggable="false" src="img/core-img/rings.png" className="center-block img-responsive rings " alt="" />
               </div>
             </div>

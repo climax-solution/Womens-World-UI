@@ -1,10 +1,10 @@
-import HomeDemo1Container from '../template/HomeDemo1'
+import HomeContainer from '../template/Home'
 import Layout from "../layouts"
 const HomeDemo1 = () => {
 
   return (
-    <Layout Title="HomeDemo1">
-      <HomeDemo1Container />
+    <Layout Title="Home">
+      <HomeContainer />
     </Layout>
   );
 }

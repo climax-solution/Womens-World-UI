@@ -885,6 +885,12 @@ ol {
     padding: 0;
     margin: 0
 }
+.navbar-brand img {
+    border-radius: 50%;
+}
+.shrink .navbar-brand img {
+    box-shadow: 0px 0px 16px 1px white;
+}
 .lh-55px{line-height: 55px}
 .navbar-nav .nav-item .nav-link{
     padding: 20px 12px;
@@ -907,7 +913,9 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
  .shrink {
     animation: .3s ease-in-out;
     animation-name: fadeInDown;
-    background-color: rgb(215, 223, 239);
+    background-color: #00112582;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #ffffff17;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -970,11 +978,11 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .navbar-white.shrink .navbar-brand,
 .shrink .navbar-nav .nav-item .nav-link{
-    color: #333
+    color: #fff
 }
 
 .navbar-dark .navbar-brand,
-.navbar-dark .navbar-nav .nav-item .nav-link{color: #333}
+.navbar-dark .navbar-nav .nav-item .nav-link{color: #fff}
 
 .navbar-cyan .navbar-brand,
 .navbar-cyan .navbar-nav .nav-item .nav-link{color: #04d0ff}
@@ -1003,7 +1011,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .hero-section.de-3{
     position: relative;
     min-height: 730px;
-    background: url(../img/bg-img/bg-3.png) no-repeat top left;
+    /* background: url(../img/bg-img/bg-3.png) no-repeat top left; */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -6343,4 +6351,8 @@ body.light-version {
 
 .ico-progress .current-progress{
     background-color: transparent !important;
+}
+
+.rounded-about {
+    border-radius: 2rem;
 }
