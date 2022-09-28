@@ -1,0 +1,1210 @@
+[
+    {
+        "header":{
+            "logo":"./img/core-img/logo.png",
+            "MenuInfo":[
+                {
+                    "path":"/about-us",
+                    "nameLink":"About Us"
+                },
+                {
+                    "path":"/collection",
+                    "nameLink":"Collection"
+                },
+                {
+                    "path":"/faq",
+                    "nameLink":"FAQ"
+                },
+                {
+                    "path":"/roadmap",
+                    "nameLink":"Roadmap"
+                },
+                {
+                    "path":"/contact-us",
+                    "nameLink":"Contact"
+                }
+            ],
+            "dataDown" : [
+                {
+                    "path":"/HomeDemo1",
+                    "title":"Home style 1"
+                },
+                {
+                    "path":"/HomeDemo2",
+                    "title":"Home style 2"
+                },
+                {
+                    "path":"/HomeDemo3",
+                    "title":"Home style 3"
+                }
+            ]
+            
+
+        },
+        "footer":{
+            "logo":"./img/core-img/logo.png",
+            "title":"CV Builder",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.",
+            "ListIcon":[
+                {"ico":"fa fa-facebook"},
+                {"ico":"fa fa-twitter"},
+                {"ico":"fa fa-google-plus"},
+                {"ico":"fa fa-instagram"},
+                {"ico":"fa fa-linkedin"}
+            ],
+            "NAVIGATE":[
+                {"text":"Advertisers"},
+                {"text":"Developers"},
+                {"text":"Resources"},
+                {"text":"Company"},
+                {"text":"Connect"}
+            ],
+            "PRIVACY":[
+                {"text":"Advertiser Agreement"},
+                {"text":"Acceptable Use Policy"},
+                {"text":"Privacy Policy"},
+                {"text":"Technology Privacy"},
+                {"text":"Developer Agreement"}
+            ],
+            "CONTACT":[
+                {"text":"Mailing Address:xx00 E. Union Ave"},
+                {"text":"Suite 1100. Denver, CO 80237"},
+                {"text":"+999 90932 627"},
+                {"text":"support@yourdomain.com"}
+            ]
+        },
+        "home":{
+            "sectionHeading":{
+                "img":"img/svg/section-icon-1.svg",
+                "title":"Choose a demo",
+                "text":"Our Template will be a perfect platform for presenting your NFT Collection, Minting Websites. This Landing Page comes in great and clean design"
+            },
+            "demos":[
+                {
+                    "img":"img/demos/demo-1.png",
+                    "title":"View demo ",
+                    "path":"/HomeDemo1"
+                },
+                {
+                    "img":"img/demos/demo-2.png",
+                    "title":"View demo ",
+                    "path":"/HomeDemo2"
+                },
+                {
+                    "img":"img/demos/demo-3.png",
+                    "title":"View demo ",
+                    "path":"/HomeDemo3"
+                },
+                {
+                    "img":"img/demos/demo-4.png",
+                    "addInnerPages":true,
+                    "title":"View demo ",
+                    "path":"/HomeDemo4"
+                },
+                {
+                    "img":"img/demos/demo-5.png",
+                    "addInnerPages":true,
+                    "title":"View demo ",
+                    "path":"/HomeDemo2"
+                },
+                {
+                    "img":"img/demos/demo-6.png",
+                    "addInnerPages":true,
+                    "title":"View demo ",
+                    "path":"/HomeDemo3"
+                }
+            ]
+        },
+        "HomeDemo1":{
+            "WelcomeArea":{
+                "title":"Discover Extraordinary NFT Collection Created and Crafted With Love",
+                "specialHead":"300 / 5000 NFT Minted",
+                "text":"We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business consultting arena and Nft Digital Artwork intelligence creation, non suscipit arcu.",
+                "btnUp":"contact us",
+                "btnDown":" Learn more"
+            },
+            "AboutOurCollectionImg":"img/core-img/about.png"
+        },
+        "HomeDemo2":{
+            "WelcomeArea":{
+                "title":"Discover New Peaks With Our Collection",
+                "specialHead":"300 / 5000 NFT Minted",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet blanditiis ad perferendis.",
+                "btnUp":"Whitepaper",
+                "btnDown":" Buy Token"
+            },
+            "AboutOurCollectionImg":"img/core-img/platform.png",
+            "AboutOurCollectionRingImg":"img/core-img/rings.png",
+            "dreamDotsText":"Creative NFT Collection",
+            "title":"About Our Collection",
+            "textUp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+            "textDown":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.",
+            "btnText":"Get Started"
+        },
+        "HomeDemo3":{
+            "WelcomeArea":{
+                "title":"Digital Artwork Collection  For You.",
+                "specialHead":"300 / 5000 NFT Minted",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet blanditiis ad perferendis.",
+                "btnUp":"Whitepaper",
+                "btnDown":" Buy Token",
+                "list":[
+                    {
+                        "title":"+3K",
+                        "text":"NFT Created"
+                    },
+                    {
+                        "title":"+798",
+                        "text":"Collectibles"
+                    },
+                    {
+                        "title":"+122",
+                        "text":"NFT Artist"
+                    }                    
+                ],
+                "headerIl":[
+                    "img/core-img/badge.png",
+                    "img/core-img/header-img.jpg"
+                ]
+            },
+            "AboutOurCollectionImg":"img/core-img/about.png",
+            "dreamDotsText":"Creative NFT Collection",
+            "title":"About Our Collection",
+            "textUp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+            "textDown":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.",
+            "btnText":"Get Started"
+        },
+        "HomeDemo4":{
+            "WelcomeArea":{
+                "title":"Digital Artwork Collection  For You.",
+                "specialHead":"300 / 5000 NFT Minted",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet blanditiis ad perferendis.",
+                "btnUp":"Whitepaper",
+                "btnDown":" Buy Token",
+                "list":[
+                    {
+                        "title":"+3K",
+                        "text":"NFT Created"
+                    },
+                    {
+                        "title":"+798",
+                        "text":"Collectibles"
+                    },
+                    {
+                        "title":"+122",
+                        "text":"NFT Artist"
+                    }                    
+                ],
+                "headerIl":[
+                    "img/core-img/badge.png",
+                    "img/core-img/header-img.jpg"
+                ]
+            },
+            "OurTokenPrices":{
+                "title":"Token Prices",
+                "otherTitle":"Our Token Prices",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+                "list":[
+                    {
+                        "title":"Round 1",
+                        "price":"0.96$",
+                        "token1":"1 ETH = 500 Token",
+                        "token2":"15,000,000 Token",
+                        "bonus":"42% bonus"
+                    },
+                    {
+                        "title":"Round 2",
+                        "price":"1.25$",
+                        "token1":"1 ETH = 500 Token",
+                        "token2":"15,000,000 Token",
+                        "bonus":"35% bonus"
+                    },
+                    {
+                        "title":"Round 3",
+                        "price":"1.50$",
+                        "token1":"1 ETH = 500 Token",
+                        "token2":"15,000,000 Token",
+                        "bonus":"25% bonus"
+                    },
+                    {
+                        "title":"Round 4",
+                        "price":"1.96$",
+                        "token1":"1 ETH = 500 Token",
+                        "token2":"15,000,000 Token",
+                        "bonus":"15% bonus"
+                    }
+                ]
+            },
+            "AboutOurCollectionImg":"img/core-img/about.png",
+            "dreamDotsText":"Creative NFT Collection",
+            "title":"About Our Collection",
+            "textUp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+            "textDown":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.",
+            "btnText":"Get Started",
+            "Decentralized":{
+                "title":"Decentralized Trading Platform",
+                "text1":"Connect blockchain to the real world and start crypto tading.",
+                "text2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+                "text3":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.",
+                "btnText":"Read More",
+                "img":"img/core-img/computer.png"
+            },
+            "OurMainFeatures":{
+                "title":"Why choose us",
+                "otherTitle":"Our Main Features",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+                "list":[
+                    {
+                        "img":"img/features/feature-1.svg",
+                        "title":"Instant settlement",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-2.svg",
+                        "title":"Flexibility",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-3.svg",
+                        "title":"Blockchain technology",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-4.svg",
+                        "title":"Experienced team",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-5.svg",
+                        "title":"Connect free",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-6.svg",
+                        "title":"AI matching",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-7.svg",
+                        "title":"Low cost",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    },
+                    {
+                        "img":"img/features/feature-8.svg",
+                        "title":"Digital personas",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit Lorem ipsu."
+                    }
+                ]
+            },
+            "OurTradingPlatform":{
+                "SectionHeading":{
+                    "title":"Try our Platform",
+                    "otherTitle":"Our Trading Platform",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+                },
+                "title":"Powerful platform.",
+                "text":"We are dedicated to providing professional service with the highest degree of honesty and integrity, and strive to add value to our tax and consulting services.",
+                "list":[
+                    "Competent Professionals",
+                    "Affordable Prices",
+                    "High Successful Recovery",
+                    "Creative Layout"
+                ],
+                "btnText":"Read More",
+                "imgs":[
+                    "img/core-img/platform.png",
+                    "img/core-img/rings.png"
+                ]
+            },
+            "Services":[
+                {
+                    "img":"img/features/feature-1.svg",
+                    "title":"Instant settlement"
+                },
+                {
+                    "img":"img/features/feature-2.svg",
+                    "title":"Flexibility"
+                },
+                {
+                    "img":"img/features/feature-3.svg",
+                    "title":"Blockchain technology"
+                },
+                {
+                    "img":"img/features/feature-4.svg",
+                    "title":"Experienced team"
+                },
+                {
+                    "img":"img/features/feature-5.svg",
+                    "title":"Connect free"
+                },
+                {
+                    "img":"img/features/feature-6.svg",
+                    "title":"AI matching"
+                },
+                {
+                    "img":"img/features/feature-7.svg",
+                    "title":"Low cost"
+                },
+                {
+                    "img":"img/features/feature-8.svg",
+                    "title":"Digital personas"
+                }
+            ],
+            "Features2InfoTop":[
+                {
+                    "img":"img/features/f1.svg",
+                    "title":"Delivery Reports"
+                },
+                {
+                    "img":"img/features/f2.svg",
+                    "title":"Branded Sender"
+                },
+                {
+                    "img":"img/features/f3.svg",
+                    "title":"SMS Messaging"
+                }
+            ],
+            
+            "Features2InfoDown":[
+                {
+                    "img":"img/features/f4.svg",
+                    "title":"Marketing Plans"
+                },
+                {
+                    "img":"img/features/f5.svg",
+                    "title":"Seed Routing"
+                },
+                {
+                    "img":"img/features/f6.svg",
+                    "title":"Traking API"
+                }
+            ],
+            
+            "OurTeamInfo":[
+                {
+                    "img":"img/team-img/1.png",
+                    "title":"Joman Helal",
+                    "text":"Executive Officer"
+                },
+                {
+                    "img":"img/team-img/2.png",
+                    "title":"Slans Alons",
+                    "text":"Business Development"
+                },
+                {
+                    "img":"img/team-img/3.png",
+                    "title":"Josha Michal",
+                    "text":"UX/UI Designer"
+                },
+                {
+                    "img":"img/team-img/4.png",
+                    "title":"Johan Wright",
+                    "text":"Head of Marketing"
+                }
+            ],
+            "PlatformIco":[
+                {
+                    "icoName":"Competent Professionals"
+                },
+                {
+                    "icoName":"Affordable Prices"
+                },
+                {
+                    "icoName":"High Successful Recovery"
+                },
+                {
+                    "icoName":"Creative Layout"
+                }
+            ],
+            "SecPricesInfo":[
+                {
+                    "Round":1,
+                    "dollar":"0.96$",
+                    "bonus":"42%"
+                },
+                {
+                    "Round":2,
+                    "dollar":"1.25$",
+                    "bonus":"35%"
+                },
+                {
+                    "Round":3,
+                    "dollar":"1.50$",
+                    "bonus":"25%"
+                },
+                {
+                    "Round":4,
+                    "dollar":"1.96$",
+                    "bonus":"15%"
+                }
+            ],
+            "TokenDistributionInfo":[
+                {
+                    "ClassName":"info-wrapper one",
+                    "Num":"12",
+                    "descr":"Overhead Token Distribution"
+                },
+                {
+                    "ClassName":"info-wrapper two",
+                    "Num":"23",
+                    "descr":"Supporting Blockchain "
+                },
+                {
+                    "ClassName":"info-wrapper four",
+                    "Num":"08",
+                    "descr":"Engineers and R&amp;D"
+                },
+                {
+                    "ClassName":"info-wrapper five",
+                    "Num":"07",
+                    "descr":" Paltform Operations"
+                },
+                {
+                    "ClassName":"info-wrapper three",
+                    "Num":"05",
+                    "descr":"Network Growth Marketing"
+                },
+                {
+                    "ClassName":"info-wrapper six",
+                    "Num":"08",
+                    "descr":"Oracle Network Developers"
+                },
+                {
+                    "ClassName":"info-wrapper seven",
+                    "Num":"05",
+                    "descr":"Engineers and R&amp;D"
+                },
+                {
+                    "ClassName":"info-wrapper eight",
+                    "Num":"27",
+                    "descr":" Paltform Operations"
+                }
+            ],
+            "RoadmapInfo":[
+                {
+                    "month":"22 Sep",
+                    "year":"2018",
+                    "title":"Listing to the major exchanges"
+                },
+                {
+                    "month":"27 Nov",
+                    "year":"2018",
+                    "title":"Platform integration to marketplaces"
+                },
+                {
+                    "month":"19 Dec",
+                    "year":"2018",
+                    "title":"Crypto Wallet version release"
+                },
+                {
+                    "month":"25 Jan",
+                    "year":"2019",
+                    "title":"Platform ealier version development"
+                }
+            ],
+            "FaqInfo":[
+                {
+                    "text":"What are the objectives of this Token?",
+                    "ID":"Text1"
+                },
+                {
+                    "text":"What is the best features and services we deiver?",
+                    "ID":"Text2"
+                },
+                {
+                    "text":"Why this ICO important to me?",
+                    "ID":"Text3"
+                },
+                {
+                    "text":"how may I take part in and purchase this Token?",
+                    "ID":"Text4"
+                }
+            ]
+
+        },
+        "OurBrands":[
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            },
+            {
+                "img":"img/icons/globe.png",
+                "title":"NEW WAY TO REACH NEW PEAKS"
+            }
+        ],
+        "AboutOurCollection":{
+            "img":"img/core-img/about.png",
+            "dreamDotsText":"Creative NFT Collection",
+            "title":"About Our Collection",
+            "textUp":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+            "textDown":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.",
+            "btnText":"Get Started"
+        },
+        "HowItWorks":{
+            "SectionHeading":{
+                "title":"How it Works",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "list":[
+                {
+                    "num":"Step 01",
+                    "img":"img/icons/i1.png",
+                    "title":"Discover New NFTs",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                },
+                {
+                    "num":"Step 02",
+                    "img":"img/icons/i2.png",
+                    "title":"Connect Your Wallet",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                },
+                {
+                    "num":"Step 03",
+                    "img":"img/icons/i3.png",
+                    "title":"Start Minting NFTs",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                },
+                {
+                    "num":"Step 04",
+                    "img":"img/icons/i4.png",
+                    "title":"List NFTs for Sale",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                }
+            ]
+        },
+        "DiscoverOurNewCollection":{
+            "SectionHeading":{
+                "title":"Discover Our New Collection",
+                "otherTitle":"Vast Collection Of Creative NFTs",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "list":[
+                {
+                    "img":"img/collection/collection1.png",
+                    "title":"Collection #1",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection2.png",
+                    "title":"Collection #2",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection3.png",
+                    "title":"Collection #3",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection4.png",
+                    "title":"Collection #4",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection5.png",
+                    "title":"Collection #5",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection6.png",
+                    "title":"Collection #6",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection7.png",
+                    "title":"Collection #7",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection8.png",
+                    "title":"Collection #8",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection9.png",
+                    "title":"Collection #9",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection10.png",
+                    "title":"Collection #10",
+                    "btnText":"Mint"
+                },
+                {
+                    "img":"img/collection/collection11.png",
+                    "title":"Collection #11",
+                    "btnText":"Mint"
+                }
+            ]
+        },
+        "OurRoadmap":{
+            "SectionHeading":{
+                "title":"Our Roadmap",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "roadmap":{
+                "title":"This Year",
+                "left":[
+                    {
+                        "ClassItem":"col-sm-12 col-md-6 news-item",
+                        "num":"28",
+                        "day":"Fri",
+                        "title":"Title 1",
+                        "ClassNewsMediaBx":"news-media",
+                        "ClassNewsMediaLink":"colorbox cboxElement",
+                        "img":"img/collection/collection1.png",
+                        "text":"No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure…"
+                    },
+                    {
+                        "ClassItem":"col-sm-12 col-md-6 news-item right",
+                        "num":"27",
+                        "day":"Thu",
+                        "title":"Title 2",
+                        "ClassNewsMediaBx":"news-media gallery",
+                        "ClassNewsMediaLink":"colorbox cboxElement",
+                        "img":"img/collection/collection3.png",
+                        "addCboxElementLink":true,
+                        "text":"But who has any right to find fault with a man who chooses to enjoy a pleasure that has no, or one who avoids a pain that produces no resultant pleasure…"
+                    }
+                ],
+                "right":[
+                    {
+                        "ClassItem":"col-sm-12 col-md-6 news-item",
+                        "num":"26",
+                        "day":"Wen",
+                        "title":"Title 3",
+                        "ClassNewsMediaBx":"news-media video",
+                        "ClassNewsMediaLink":"colorbox-video cboxElement",
+                        "img":"img/collection/collection5.png",
+                        "text":"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized…"
+                    },
+                    {
+                        "ClassItem":"col-sm-12 col-md-6 news-item right",
+                        "num":"25",
+                        "day":"Tue",
+                        "title":"Title 4",
+                        "ClassNewsMediaBx":"news-media gallery",
+                        "ClassNewsMediaLink":"colorbox cboxElement",
+                        "img":"img/collection/collection2.png",
+                        "addCboxElementLink":true,
+                        "text":"The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains…"
+                    }
+                ]
+            }
+        },
+        "FAQ":{
+            "SectionHeading":{
+                "title":"Out Top FAQ",
+                "otherTitle":"Frequently Questions",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "listQues":[
+                {
+                    "title":"What are the objectives of this Token?",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "ID":"Q1"
+                },
+                {
+                    "title":"What is the best features and services we deiver?",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "ID":"Q2"
+                },
+                {
+                    "title":"Why this ICO important to me?",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "ID":"Q3"
+                },
+                {
+                    "title":"how may I take part in and purchase this Token?",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "ID":"Q4"
+                }
+            ]
+        },
+        "TeamArea":{
+            "SectionHeading":{
+                "title":"Our Team",
+                "otherTitle":"Awesome Team",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "listQues":[
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/1.png",
+                    "name":"Ray Jhonson",
+                    "title":"Senior Developer"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/2.png",
+                    "name":"Serena Whatson",
+                    "title":"UI/UX Designer"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/3.png",
+                    "name":"Davema Serene",
+                    "title":"Company CEO"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/4.png",
+                    "name":"Johanson Wall",
+                    "title":"NFT Artist"
+                }
+            ]
+        },
+        "Subscribe":{
+            "title":"Don’t Miss Our New Collection And Recent Updates!",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+            "btnText":"Subscribe",
+            "img":"img/core-img/ava.png"
+        },
+        "ContactArea":{
+            "SectionHeading":{
+                "title":"Contact us",
+                "otherTitle":"Contact With Us",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "list":[
+                {
+                    "ClassUp":"col-12 col-md-6",
+                    "nameInput":"name",
+                    "title":"Name",
+                    "addTextArea":false
+                },
+                {
+                    "ClassUp":"col-12 col-md-6",
+                    "nameInput":"email",
+                    "title":"Email",
+                    "addTextArea":false
+                },
+                {
+                    "ClassUp":"col-12",
+                    "nameInput":"subject",
+                    "title":"Subject",
+                    "addTextArea":false
+                },
+                {
+                    "ClassUp":"col-12",
+                    "nameInput":"message",
+                    "title":"Message",
+                    "addTextArea":true
+                }
+            ],
+            "send":"Send Message"
+        },
+        "about":{
+            "WeDeliverTheBest":{
+                "whoWeContant":{
+                    "title":"We Deliver The Best",
+                    "list":[
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Proven CV Templates to increase Hiring Chance"
+                        },
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Creative and Clean Templates Design"
+                        },
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Easy and Intuitive Online CV Builder"
+                        },
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Free to use. Developed by hiring professionals."
+                        },
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Fast Easy CV and Resume Formatting"
+                        },
+                        {
+                            "img":"./img/icons/check.png",
+                            "title":"Recruiter Approved Phrases."
+                        }
+                    ],
+                    "welcomeMeterImg":"./img/core-img/cv.png"
+                }
+            },
+            "WhyChooseOurPlatform":{
+                "servicesList":[
+                    {
+                        "img":"./img/icons/d1.png",
+                        "title":"Easy Online Resume Builder",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi assumenda."
+                    },
+                    {
+                        "img":"./img/icons/d2.png",
+                        "title":"Step by Step Expert Tips",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit skaj gjska consectetur adipisicing elit."
+                    },
+                    {
+                        "img":"./img/icons/d3.png",
+                        "title":"Recruiter Approved Phrases",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi."
+                    }
+                ],
+                "whoWeContant":[
+                    "Why Choose Our Platform?",
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magni, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. Fugit!",
+                    "lets build your cv"
+                ]
+            },
+            "CompleteCustomCVTemplate":{
+                "img":"./img/core-img/custom.png",
+                "title":"Do you Need a Complete Custom CV Template?",
+                "contactBtn":"Send a Request"
+            }
+        },
+        "pricing":{
+            "OurPricing":{
+                "whoWeContant":{
+                    "title":"Our Pricing",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.",
+                    "free":[
+                        "Lets Build CV",
+                        "with 7days of Free Trial"
+                    ],
+                    "terms":[
+                        "Terms & Conditions ",
+                        "subject to change with perior notice"                        
+                    ]
+                },
+                "SingleTable":[
+                    {
+                        "price":"$9.99",
+                        "month":"/ month",
+                        "title":"Monthly Pack",
+                        "text":"You will be billed per month, and get unlimited access to all resume Templates and new added ones",
+                        "contactBtn":"Get Started"
+                    },
+                    {
+                        "price":"$7.99",
+                        "month":"/ month",
+                        "title":"Yearly Pack ",
+                        "addSpan":true,
+                        "span":" save 20%",
+                        "text":"You will be billed per month, and get unlimited access to all resume Templates and new added ones",
+                        "contactBtn":"Get Started"
+                    }
+                ]
+            },
+            "OurMainFeatures":{
+                "title":"Our Main Features",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+                "list":[
+                    {
+                        "img":"./img/icons/f1.png",
+                        "title":"Proven CV Templates to increase Hiring Chance",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f2.png",
+                        "title":"Creative, Modern and Clean Templates Design",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f3.png",
+                        "title":"Easy and Intuitive Online CV and Resume Builder ",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f4.png",
+                        "title":"Free to use. Developed by hiring professionals.",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f5.png",
+                        "title":"Recruiter Approved Phrases with Module Notification",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f6.png",
+                        "title":"Fast Easy CV and Resume Formatting",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    }
+                ]
+            }
+        },
+        "templates":{
+            "OurMainFeatures":{
+                "title":"Our Main Features",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+                "list":[
+                    {
+                        "img":"./img/icons/f1.png",
+                        "title":"Proven CV Templates to increase Hiring Chance",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f2.png",
+                        "title":"Creative, Modern and Clean Templates Design",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f3.png",
+                        "title":"Easy and Intuitive Online CV and Resume Builder ",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f4.png",
+                        "title":"Free to use. Developed by hiring professionals.",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f5.png",
+                        "title":"Recruiter Approved Phrases with Module Notification",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    },
+                    {
+                        "img":"./img/icons/f6.png",
+                        "title":"Fast Easy CV and Resume Formatting",
+                        "text":"Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing elit."
+                    }
+                ]
+            },
+            "OurCreativeTemplates":{
+                "SectionHeading":{
+                    "title":"Our Creative Templates",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                },
+                "list":[
+                    {
+                        "img":"./img/demos/demo-1.png",
+                        "title":"See template",
+                        "text":"Use template"
+                    },
+                    {
+                        "img":"./img/demos/demo-2.png",
+                        "title":"See template",
+                        "text":"Use template"
+                    },
+                    {
+                        "img":"./img/demos/demo-3.png",
+                        "title":"See template",
+                        "text":"Use template"
+                    }
+                ]
+            }
+        },
+        "Contact":{
+            "SectionHeading":{
+                "title":"Contact With Us",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+            },
+            "ContactContent":[
+                {
+                    "nameInput":"name",
+                    "title":"Name",
+                    "lastItem":true
+                },
+                {
+                    "nameInput":"email",
+                    "title":"Email",
+                    "lastItem":true
+                },
+                {
+                    "nameInput":"subject",
+                    "title":"Subject",
+                    "lastItem":false
+                }
+            ],
+            "textareaLabel":"Message",
+            "dreamBtn":"Send Message"
+        },
+        "TemplatePreview":{
+            "blogThumbnail":"img/demos/demo-1.png",
+            "tempSummaryText":"Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
+            "tempSummaryBtn":"Try This Template",
+            "subscribe":"subscribe"
+        },
+        "TemplateEdit":{
+            "blog_thumbnail":"./img/demos/demo-1.png",
+            "cvDownload":{
+                "text":"Fill all required fields and click create cv to download CV in both PDF and PNG formats",
+                "DownloadAsPDF":"Download as PDF",
+                "DownloadAsPNG":"Download as PNG"
+            },
+            "PersonalInfo":{
+                "title":"Personal Info",
+                "top":{
+                    "img":"./img/test-img/1.jpg",
+                    "title":"Upload your picture",
+                    "text":"For best results, use image 300px by 300px in either .jpg or .png",
+                    "Upload":"Upload",
+                    "Remove":"Remove"
+                },
+                "bottom":[
+                    {
+                        "label":"Full Name:",
+                        "name":"full-name",
+                        "placeholder":"enter your name"
+                    },
+                    {
+                        "label":"Jop Title:",
+                        "name":"jop-title",
+                        "placeholder":"Ex: Web Developer"
+                    },
+                    {
+                        "label":"Your Address:",
+                        "name":"address",
+                        "placeholder":"enter your address"
+                    },
+                    {
+                        "label":"Your Email:",
+                        "name":"email",
+                        "placeholder":"enter your name"
+                    },
+                    {
+                        "label":"Website Link:",
+                        "name":"web-link",
+                        "placeholder":"enter your website link"
+                    },
+                    {
+                        "label":"Phone No:",
+                        "name":"phone",
+                        "placeholder":"Ex: Web Developer"
+                    }
+                ],
+                "textarea":{
+                    "label":"Your Bio Here",
+                    "name":"comments",
+                    "placeholder":"About Me :"
+                }
+            },
+            "AddEducations":{
+                "title":"Add Educations",
+                "newEdu":{
+                    "list":[
+                        {
+                            "label":"Field of study:",
+                            "placeholder":"Ex: Computer Science"
+                        },
+                        {
+                            "label":"Degree:",
+                            "placeholder":"Ex: Bachelor's"
+                        },
+                        {
+                            "label":"School:",
+                            "placeholder":"Ex: al-albayt university"
+                        }
+                    ],
+                    "formRow":[
+                        {
+                            "label":"From year:"
+                        },
+                        {
+                            "label":"To year (optional=present):"
+                        }
+                    ]
+                },
+                "addBlk":"Add another education"
+            },
+            "AddExperiences":{
+                "title":"Add Experiences",
+                "newExp":[
+                    {
+                        "label":"Title:",
+                        "placeholder":"Ex: Web Developer"
+                    },
+                    {
+                        "label":"Company:",
+                        "placeholder":"Ex: ProgressSoft"
+                    }
+                ],
+                "formRow":[
+                    {
+                        "label":"From year:"
+                    },
+                    {
+                        "label":"To year (optional=present):"
+                    }
+                ],
+                "textarea":{
+                    "label":"Description (optional):"
+                },
+                "addBlk":"Add another experience"
+            },
+            "AddSkills":{
+                "title":"Add Skills",
+                "newSkills":[
+                    {
+                        "label":"Skill"
+                    },
+                    {
+                        "label":"Proficiency"
+                    }
+                ],
+                "addBlk":"Add another Skill"
+            },
+            "AddSocialLinks":{
+                "title":"Add social Links",
+                "newSkills":[
+                    {
+                        "label":"Social Name",
+                        "type":"text"
+                    },
+                    {
+                        "label":"Social Link",
+                        "type":"text"
+                    },
+                    {
+                        "label":"Social icon image (16px*16px)",
+                        "type":"file"
+                    }
+                ],
+                "addBlk":"Add another social"
+            },
+            "AddHoppies":{
+                "title":"Add social Links",
+                "label":"Hoppy icon image (32px*32px)",
+                "addBlk":"Add another Hoppy"
+            }
+        }
+    }
+]
