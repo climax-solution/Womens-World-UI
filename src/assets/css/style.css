@@ -1103,7 +1103,8 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     animation: cloudwash 15s linear infinite;
 }
 .marquee-block{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     width: 19em;
 }
 .marquee-block p{
