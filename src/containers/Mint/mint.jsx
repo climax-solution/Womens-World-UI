@@ -42,7 +42,7 @@ const MintPanel = () => {
 
     return (
         <div className='container mt-5 py-5'>
-            <div className='d-flex align-items-center mx-auto'>
+            <div className='d-flex align-items-center mx- flex-wrap'>
                 <Swiper
                     effect={"cards"}
                     grabCursor={true} 
