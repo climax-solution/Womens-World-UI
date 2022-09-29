@@ -26,6 +26,10 @@
                 {
                     "path":"/contact-us",
                     "nameLink":"Contact"
+                },
+                {
+                    "path":"/mint",
+                    "nameLink":"Mint"
                 }
             ]
         },
@@ -71,7 +75,7 @@
                 {
                     "img":"img/demos/demo-1.png",
                     "title":"View demo ",
-                    "path":"/HomeDemo1"
+                    "path":"/Home"
                 },
                 {
                     "img":"img/demos/demo-2.png",
@@ -103,7 +107,7 @@
                 }
             ]
         },
-        "HomeDemo1":{
+        "Home":{
             "WelcomeArea":{
                 "title":"Womens world NFT Collection Created and Crafted With Love",
                 "specialHead":"300 / 2222 NFT Minted",
@@ -353,6 +357,17 @@
                         "fa fa-google",
                         "fa fa-instagram"
                     ],
+                    "img":"img/team-img/3.png",
+                    "name":"Ruebin Reti",
+                    "title":"Company CEO"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
                     "img":"img/team-img/1.png",
                     "name":"Alyosha Agapov",
                     "title":"Senior Developer"
@@ -367,17 +382,6 @@
                     "img":"img/team-img/2.png",
                     "name":"Serena Whatson",
                     "title":"UI/UX Designer"
-                },
-                {
-                    "icons":[
-                        "fa fa-facebook",
-                        "fa fa-twitter",
-                        "fa fa-google",
-                        "fa fa-instagram"
-                    ],
-                    "img":"img/team-img/3.png",
-                    "name":"Ruebin Reti",
-                    "title":"Company CEO"
                 },
                 {
                     "icons":[

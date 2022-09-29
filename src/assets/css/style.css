@@ -6359,3 +6359,34 @@ body.light-version {
 .rounded-about {
     border-radius: 2rem;
 }
+
+.mySwiper {
+    width: 240px;
+    height: 300px;
+}
+
+.count-btn {
+    width: 75px;
+    height: 75px;
+    font-size: 3.2rem !important;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    background-color: #00dcd8;
+    text-align: center;
+    cursor: pointer;
+}
+
+.count-btn:hover {
+    background-color: #00dc66;
+}
+
+.mint-count {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.mint-btn {
+    padding: 10px 30px;
+}

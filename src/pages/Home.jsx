@@ -1,6 +1,6 @@
 import HomeContainer from '../template/Home'
 import Layout from "../layouts"
-const HomeDemo1 = () => {
+const Home = () => {
 
   return (
     <Layout Title="Home">
@@ -9,4 +9,4 @@ const HomeDemo1 = () => {
   );
 }
 
-export default HomeDemo1;
+export default Home;

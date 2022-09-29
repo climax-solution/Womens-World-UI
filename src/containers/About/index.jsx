@@ -15,7 +15,7 @@ const AboutContainer = () => {
         ClassBxImg="welcome-meter floating-anim"
         ClassBxText="col-12 col-lg-6 offset-lg-0 mt-s"
         data={data[0].AboutOurCollection}
-        AboutOurCollectionImg={data[0].HomeDemo1.AboutOurCollectionImg}
+        AboutOurCollectionImg={data[0].Home.AboutOurCollectionImg}
       />
       <Subscribe data={data[0].Subscribe} />
     </>
