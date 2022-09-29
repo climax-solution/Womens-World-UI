@@ -41,7 +41,7 @@ const Header = ({Title}) => {
           {/* Brand */}
           <a className="navbar-brand" href="#"><span><img draggable="false" src="img/core-img/logo.jpg" alt="logo" /></span> </a>
           {/* Toggler/collapsibe Button */}
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon" />
           </button>
           {/* Navbar links */}
