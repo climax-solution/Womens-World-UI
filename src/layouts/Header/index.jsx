@@ -33,7 +33,6 @@ const Header = ({Title}) => {
     }
   }
 
-  console.log(walletAddress);
   return (
     <>
       <Preloader Title={Title} />

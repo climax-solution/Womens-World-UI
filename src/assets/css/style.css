@@ -1101,11 +1101,13 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     -webkit-animation: cloudwash 15s linear infinite;
     -moz-animation: cloudwash 15s linear infinite;
     animation: cloudwash 15s linear infinite;
+    display: flex;
+    align-items: center;
 }
 .marquee-block{
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    width: 19em;
+    min-width: 33rem !important;
 }
 .marquee-block p{
     margin-bottom: 0;
