@@ -10,7 +10,6 @@ import data from "../../data/static.json"
 import WelcomeArea from "./WelcomeArea"
 import TeamArea from "../../components/TeamArea"
 import ContactArea from "../../components/ContactArea"
-import VideoIntroduction from "../../components/Introduction/video"
 
 const HomeContainer = () => {
 
@@ -34,9 +33,7 @@ const HomeContainer = () => {
         ClassItem="how-steps section-padding-0-40"
         data={data[0].HowItWorks}
       />
-      <VideoIntroduction source={"home"}/>
       <OurRoadmap data={data[0].OurRoadmap} />
-      <VideoIntroduction source={"mint"}/>
       <FAQ data={data[0].FAQ} />
       <TeamArea data={data[0].TeamArea} />
       <ContactArea data={data[0].ContactArea} />

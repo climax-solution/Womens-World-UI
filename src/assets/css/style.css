@@ -6390,15 +6390,3 @@ body.light-version {
 .mint-btn {
     padding: 10px 30px;
 }
-
-.video-player {
-    width: 100% !important;
-    height: 500px !important;
-    margin: auto;
-    border: 1px solid #333;
-}
-
-.video-react-controls-enabled {
-    width: 100% !important;
-    height: inherit !important;
-}

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
-import { EffectCards } from "swiper";
+import SwiperCore, { EffectCards, Autoplay  } from "swiper";
 import { useState } from 'react';
 import { NotificationManager } from "react-notifications";
 import { useAppContext } from '../../utils/context';
@@ -8,6 +8,7 @@ import abi from "../../data/abi.json";
 import 'swiper/swiper.min.css';
 import "swiper/modules/effect-cards/effect-cards.min.css";
 const address = "0x39b730616b2Cf70953b88BAA1e67A70208e8a043";
+SwiperCore.use([Autoplay]);
 
 const MintPanel = () => {
 
@@ -48,6 +49,11 @@ const MintPanel = () => {
                     grabCursor={true} 
                     modules={[EffectCards]}
                     className="mySwiper"
+                    autoplay={{
+                        delay: 300,
+                        disableOnInteraction: false
+                    }}
+                    loop={true}
                 >
                     {
                         [...Array(11)].map((item, idx) => {
