@@ -32,11 +32,11 @@ const Header = ({Title}) => {
           });
           const web3 = new Web3(window.ethereum);
           const network = await web3.eth.getChainId();
-          if (network != 1) {
-            // await window.ethereum.request({
-            //   method: 'wallet_switchEthereumChain',
-            //   params: [{ chainId: '0x1' }]
-            // });
+          if (network != 0x61) {
+            await window.ethereum.request({
+              method: 'wallet_switchEthereumChain',
+              params: [{ chainId: '0x61' }]
+            });
           }
   
           setWalletAddress(accounts[0]);

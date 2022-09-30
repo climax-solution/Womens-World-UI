@@ -7,7 +7,7 @@ import abi from "../../data/abi.json";
 
 import 'swiper/swiper.min.css';
 import "swiper/modules/effect-cards/effect-cards.min.css";
-const address = "0x39b730616b2Cf70953b88BAA1e67A70208e8a043";
+const address = "0x874893582fc270D10df9E7cE3706fCDD796A15c0";
 SwiperCore.use([Autoplay]);
 
 const MintPanel = () => {
