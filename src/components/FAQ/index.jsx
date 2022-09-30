@@ -19,17 +19,17 @@ const FAQ = ({data}) => {
             </div>
             <div className="col-12 col-lg-6 col-md-12">
               <div className="dream-faq-area mt-s ">
-                <dl style={{marginBottom: 0}}>
+                {/* <dl style={{marginBottom: 0}}> */}
 
                   {data?.listQues?.map((item , key) => (
-                    <>
-                      <dt key={key} className="wave" data-bs-toggle="collapse" data-bs-target={`#${item.ID}`} aria-expanded="false">{item.title}</dt>
-                      <dd key={key} data-aos="fade-up" id={item.ID} aria-labelledby="headingOne" data-bs-parent="#basicAccordion" className="accordion-collapse collapse">
+                    <dl style={{marginBottom: 0}} key={key}>
+                      <dt className="wave" data-bs-toggle="collapse" data-bs-target={`#${item.ID}`} aria-expanded="false">{item.title}</dt>
+                      <dd data-aos="fade-up" id={item.ID} aria-labelledby="headingOne" data-bs-parent="#basicAccordion" className="accordion-collapse collapse">
                           <p className="accordion-body">{item.text}</p>
                       </dd>
-                    </>
+                    </dl>
                   ))}
-                </dl>
+                {/* </dl> */}
               </div>
             </div>
           </div>

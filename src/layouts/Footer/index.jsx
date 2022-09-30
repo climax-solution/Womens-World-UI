@@ -40,7 +40,7 @@ const Footer = () => {
               ClassBx="contact_info mt-x text-center"
               title="PRIVACY & TOS"
             >
-              {data[0]?.footer?.PRIVACY?.map((item , key) => <a href key={key}><p>{item.text}</p></a>)}
+              {data[0]?.footer?.PRIVACY?.map((item , key) => <a href="#" key={key}><p>{item.text}</p></a>)}
             </ContactInfo>
 
             <ContactInfo
@@ -48,7 +48,7 @@ const Footer = () => {
               ClassBx="contact_info mt-s text-center"
               title="NAVIGATE"
             >
-              {data[0]?.footer?.NAVIGATE?.map((item , key) => <a href key={key}><p>{item.text}</p></a>)}
+              {data[0]?.footer?.NAVIGATE?.map((item , key) => <a href="#" key={key}><p>{item.text}</p></a>)}
             </ContactInfo>
 
             <ContactInfo
