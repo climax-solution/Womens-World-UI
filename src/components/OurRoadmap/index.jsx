@@ -15,7 +15,12 @@ const OurRoadmap = ({data}) => {
             <div className="col-md-12">
               <div className="timeline">
                 <div className="date-title">
-                  <span>{data.roadmap.title}</span>
+                  <img
+                    src="/img/core-img/roadmap-brand.png"
+                    alt="roadmap-brand"
+                    className="rounded-circle roadmap-brand"
+                    width="150"
+                  />
                 </div>
 
                 <div className="row">
@@ -23,8 +28,6 @@ const OurRoadmap = ({data}) => {
                         <NewsContent
                             key={key}
                             ClassItem={item.ClassItem}
-                            num={item.num}
-                            day={item.day}
                             title={item.title}
                             ClassNewsMediaBx={item.ClassNewsMediaBx}
                             ClassNewsMediaLink={item.ClassNewsMediaLink}

@@ -1,7 +1,5 @@
 const NewsContent = ({
     ClassItem,
-    num,
-    day,
     title,
     ClassNewsMediaBx,
     ClassNewsMediaLink,
@@ -11,10 +9,6 @@ const NewsContent = ({
 }) => (
     <div className={ClassItem}>
         <div className="news-content">
-            <div className="date">
-                <p>{num}</p>
-                <small>{day}</small>
-            </div>
             <h2 className="news-title">{title}</h2>
             <div className={ClassNewsMediaBx}>
                 <a className={ClassNewsMediaLink} href="#">
@@ -22,7 +16,13 @@ const NewsContent = ({
                 </a>
                 {addCboxElementLink && <a className="colorbox cboxElement" href="#" />}
             </div>
-            <p>{text}</p>
+            <ul>
+                {
+                    text.map((_text, idx) => (
+                        <li key={idx} className="text-white">{_text}</li>
+                    ))
+                }
+            </ul>
         </div>
     </div>
 )

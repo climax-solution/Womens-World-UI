@@ -170,25 +170,25 @@
             },
             "list":[
                 {
-                    "num":"Step 01",
+                    "num":"Stage 01",
                     "img":"img/icons/i1.png",
                     "title":"Discover New NFTs",
                     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
                 },
                 {
-                    "num":"Step 02",
+                    "num":"Stage 02",
                     "img":"img/icons/i2.png",
                     "title":"Connect Your Wallet",
                     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
                 },
                 {
-                    "num":"Step 03",
+                    "num":"Stage 03",
                     "img":"img/icons/i3.png",
                     "title":"Start Minting NFTs",
                     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
                 },
                 {
-                    "num":"Step 04",
+                    "num":"Stage 04",
                     "img":"img/icons/i4.png",
                     "title":"List NFTs for Sale",
                     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
@@ -261,8 +261,8 @@
         },
         "OurRoadmap":{
             "SectionHeading":{
-                "title":"Our Roadmap",
-                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+                "title":"WW Roadmap",
+                "text":"Don't think about making women fit the world — think about making the world fit women."
             },
             "roadmap":{
                 "title":"This Year",
@@ -271,22 +271,31 @@
                         "ClassItem":"col-sm-12 col-md-6 news-item",
                         "num":"28",
                         "day":"Fri",
-                        "title":"Title 1",
+                        "title":"Stage 1",
                         "ClassNewsMediaBx":"news-media",
                         "ClassNewsMediaLink":"colorbox cboxElement",
                         "img":"img/collection/collection1.png",
-                        "text":"No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure…"
+                        "text":[
+                            "Launch Discord",
+                            "Grow Womens World Collaborations",
+                            "Successful free mint and launch",
+                            "Implement a board of Woman"
+                        ]
                     },
                     {
                         "ClassItem":"col-sm-12 col-md-6 news-item right",
                         "num":"27",
                         "day":"Thu",
-                        "title":"Title 2",
+                        "title":"Stage 2",
                         "ClassNewsMediaBx":"news-media gallery",
                         "ClassNewsMediaLink":"colorbox cboxElement",
                         "img":"img/collection/collection3.png",
                         "addCboxElementLink":true,
-                        "text":"But who has any right to find fault with a man who chooses to enjoy a pleasure that has no, or one who avoids a pain that produces no resultant pleasure…"
+                        "text":[
+                            "Release 5k image fetch. Made available to Womans world Diamond holders",
+                            "Release Diamond hand function",
+                            "Release Diamond hand NFT flexibility"
+                        ]
                     }
                 ],
                 "right":[
@@ -294,22 +303,30 @@
                         "ClassItem":"col-sm-12 col-md-6 news-item",
                         "num":"26",
                         "day":"Wen",
-                        "title":"Title 3",
+                        "title":"Stage 3",
                         "ClassNewsMediaBx":"news-media video",
                         "ClassNewsMediaLink":"colorbox-video cboxElement",
-                        "img":"img/collection/collection5.png",
-                        "text":"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized…"
+                        "img":"img/collection/collection2.png",
+                        "text":[
+                            "Plan the depth of the Womans World platform",
+                            "Put a vote to the community regarding such plans",
+                            "Start the Design and build of womans worlds platform based on community vote"
+                        ]
                     },
                     {
                         "ClassItem":"col-sm-12 col-md-6 news-item right",
                         "num":"25",
                         "day":"Tue",
-                        "title":"Title 4",
+                        "title":"Stage 4",
                         "ClassNewsMediaBx":"news-media gallery",
                         "ClassNewsMediaLink":"colorbox cboxElement",
-                        "img":"img/collection/collection2.png",
+                        "img":"img/collection/collection4.png",
                         "addCboxElementLink":true,
-                        "text":"The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains…"
+                        "text":[
+                            "Release Womens World Beta Platform for testing",
+                            "Implement Diamond hand benefits based on holding time",
+                            "Strengthen and add benefits to Womans World holders"
+                        ]
                     }
                 ]
             }

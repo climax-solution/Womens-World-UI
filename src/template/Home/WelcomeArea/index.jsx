@@ -27,8 +27,8 @@ const WelcomeArea = ({data}) => {
             <div className="row align-items-center">
               {/* Welcome Content */}
               <div className="col-12 col-md-6">
-                <div className="welcome-content">
-                  <h1 className="fadeInUp" data-wow-delay="0.2s" className="welcome-title">{data.title}</h1>
+                <div className="welcome-content text-center">
+                  <h1 className="fadeInUp welcome-title" data-wow-delay="0.2s">{data.title}</h1>
                   <div className="promo-section">
                     <h3 className="special-head dark">{minted} / 2222 NFTs</h3>
                   </div>

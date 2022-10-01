@@ -3622,7 +3622,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin:20px 30px 0 0;
     position:relative;
     padding:30px;
-    padding-left:100px;
     background:#5138c3;
     border-radius:10px;
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
@@ -6394,4 +6393,8 @@ body.light-version {
 
 .mint-btn {
     padding: 10px 30px;
+}
+
+.roadmap-brand {
+    box-shadow: 0 0 4px #118cc7;
 }
