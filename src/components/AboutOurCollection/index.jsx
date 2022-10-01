@@ -19,13 +19,15 @@ const AboutOurCollection = ({
             </div>
             <div className={ClassBxText}>
               <div className="who-we-contant">
-                <div className="dream-dots text-left" data-aos="fade-up">
+                <div className="dream-dots text-left justify-content-center" data-aos="fade-up">
                   <span className="gradient-text ">{data.dreamDotsText}</span>
                 </div>
-                <h4 data-aos="fade-up">{data.title}</h4>
-                <p data-aos="fade-up">{data.textUp}</p>
-                <p data-aos="fade-up">{data.textDown}</p>
-                <a className="btn more-btn mt-20" href="#">{data.btnText}</a>
+                <h4 data-aos="fade-up" className="text-center">{data.title}</h4>
+                <p data-aos="fade-up" className="text-center">{data.textUp}</p>
+                <p data-aos="fade-up" className="text-center">{data.textDown}</p>
+                <div className="d-flex justify-content-center">
+                  <a className="btn more-btn mx-auto" href="#">{data.btnText}</a>
+                </div>
               </div>
             </div>
           </div>

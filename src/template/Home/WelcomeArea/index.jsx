@@ -1,4 +1,23 @@
+import { useEffect, useState } from "react"
+import Web3 from "web3";
+import abi from "../../../data/abi.json";
+import contractAddress from "../../../data/address.json";
+
 const WelcomeArea = ({data}) => {
+
+  const [minted, setMinted] = useState(0);
+
+  useEffect(() => {
+    async function getMintedNumber() {
+      const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545/");
+      const contract = new web3.eth.Contract(abi, contractAddress.address);
+      const _minted = await contract.methods.totalSupply().call();
+      setMinted(_minted);
+    }
+
+    getMintedNumber();
+  }, [])
+
   return (
       <section className="hero-section app section-padding" id="home">
         {/* Hero Content */}
@@ -10,7 +29,7 @@ const WelcomeArea = ({data}) => {
                 <div className="welcome-content">
                   <h1 className="fadeInUp" data-wow-delay="0.2s">{data.title}</h1>
                   <div className="promo-section">
-                    <h3 className="special-head dark">{data.specialHead}</h3>
+                    <h3 className="special-head dark">{minted} / 2222 NFTs</h3>
                   </div>
                   <p className="w-text">{data.text}</p>
                   <div className="dream-btn-group">

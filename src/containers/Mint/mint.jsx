@@ -4,10 +4,11 @@ import { useState } from 'react';
 import { NotificationManager } from "react-notifications";
 import { useAppContext } from '../../utils/context';
 import abi from "../../data/abi.json";
+import contractAddress from "../../data/address.json";
 
 import 'swiper/swiper.min.css';
 import "swiper/modules/effect-cards/effect-cards.min.css";
-const address = "0x874893582fc270D10df9E7cE3706fCDD796A15c0";
+
 SwiperCore.use([Autoplay]);
 
 const MintPanel = () => {
@@ -28,17 +29,24 @@ const MintPanel = () => {
             NotificationManager.warning("Please connect metamask");
             return;
         }
+        setLoading(true);
         try {
-            const contract = new WEB3.eth.Contract(abi, address);
+            const contract = new WEB3.eth.Contract(abi, contractAddress.address);
+            const isPublic = await contract.methods.isPublic().call();
+            const price = isPublic ? 0.007 : 0.005;
+            const payFee = WEB3.utils.toWei(String(price * count), 'ether');
             await contract.methods.mint(count, []).send({
-                from: account
+                from: account,
+                value: payFee
             });
             NotificationManager.success(`Minted ${count}NFTs successfully!`);
         } catch(err) {
+            console.log(err);
             if (err?.code != 4001) {
                 NotificationManager.error("Minting is failed");
             }
         }
+        setLoading(false);
     }
 
     return (
