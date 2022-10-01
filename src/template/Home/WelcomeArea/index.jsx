@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Web3 from "web3";
+import ArtSlider from "../../../components/ArtSlider";
 import abi from "../../../data/abi.json";
 import contractAddress from "../../../data/address.json";
 
@@ -25,9 +26,9 @@ const WelcomeArea = ({data}) => {
           <div className="container ">
             <div className="row align-items-center">
               {/* Welcome Content */}
-              <div className="col-12 col-lg-6 col-md-12">
+              <div className="col-12 col-md-6">
                 <div className="welcome-content">
-                  <h1 className="fadeInUp" data-wow-delay="0.2s">{data.title}</h1>
+                  <h1 className="fadeInUp" data-wow-delay="0.2s" className="welcome-title">{data.title}</h1>
                   <div className="promo-section">
                     <h3 className="special-head dark">{minted} / 2222 NFTs</h3>
                   </div>
@@ -37,6 +38,9 @@ const WelcomeArea = ({data}) => {
                     <a href="#" className="btn more-btn">{data.btnDown}</a>
                   </div>
                 </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <ArtSlider/>
               </div>
             </div>
           </div>
