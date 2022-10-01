@@ -2826,7 +2826,8 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     transition: all .3s ease-in-out;
 }
 .service_single_content p{
-    margin-bottom: 0
+    margin-bottom: 0;
+    word-break: break-all;
 }
 .light-version .service_single_content.food{
     background: #5a20c6;
@@ -2867,6 +2868,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: linear-gradient(180deg, rgba(31, 30, 28, 0.6) 0%, rgba(158, 0, 255, 0.6) 67.59%);
     border-radius: 20px;
     margin-bottom: 60px;
+    height: calc(100% - 30px);
 }
 .pizza-prop li{
     padding: 5px 0
@@ -2950,7 +2952,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .step-num{
     position: absolute;
-    top: -20px;
+    top: -40px;
     right: 15px;
     background: #5138c3;
     padding: 7px 25px;
@@ -3622,6 +3624,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin:20px 30px 0 0;
     position:relative;
     padding:30px;
+    padding-left: 50px;
     background:#5138c3;
     border-radius:10px;
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
@@ -6121,7 +6124,7 @@ body.light-version {
     margin-bottom: 30px !important;
 }
 .light-version .service_single_content p{
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 .light-version .services-block-four .inner-box h3 a{
     color: #222
@@ -6397,4 +6400,8 @@ body.light-version {
 
 .roadmap-brand {
     box-shadow: 0 0 4px #118cc7;
+}
+
+.roadmap-list li{
+    list-style-type: circle;
 }

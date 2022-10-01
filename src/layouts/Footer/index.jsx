@@ -24,42 +24,16 @@ const Footer = () => {
                 {/* Copywrite */}
                 <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
                   <div className="footer-logo">
-                    <a href="#"><img src={data[0]?.footer?.logo} alt="logo" /></a>
+                    <a href="#"><img src={data[0]?.footer?.logo} alt="logo" className="rounded-circle" /></a>
                   </div>
                   <p>{data[0]?.footer?.text}</p>
                 </div>
                 {/* Social Icon */}
                 <div className="footer-social-info fadeInUp" data-wow-delay="0.4s">
-                  {data[0]?.footer?.ListIcon?.map((item , key) => <a href="/#" aria-label={item.ico} key={key}><i className={item.ico} aria-hidden="true" /></a>)}
+                  {data[0]?.footer?.socials?.map((item , key) => <a href={item.link} aria-label={item.ico} key={key}><i className={item.ico} aria-hidden="true" /></a>)}
                 </div>
               </div>
             </div>
-
-            <ContactInfo
-              Class="col-12 col-lg-3 col-md-6 "
-              ClassBx="contact_info mt-x text-center"
-              title="PRIVACY & TOS"
-            >
-              {data[0]?.footer?.PRIVACY?.map((item , key) => <a href="#" key={key}><p>{item.text}</p></a>)}
-            </ContactInfo>
-
-            <ContactInfo
-              Class="col-12 col-lg-2 col-md-6"
-              ClassBx="contact_info mt-s text-center"
-              title="NAVIGATE"
-            >
-              {data[0]?.footer?.NAVIGATE?.map((item , key) => <a href="#" key={key}><p>{item.text}</p></a>)}
-            </ContactInfo>
-
-            <ContactInfo
-              Class="col-12 col-lg-3 col-md-6 "
-              ClassBx="contact_info mt-s text-center"
-              title="CONTACT US"
-            >
-              {data[0]?.footer?.CONTACT?.map((item , key) =><p key={key}>{item.text}</p>)}
-            </ContactInfo>
-
-
           </div>
         </div>
       </div>

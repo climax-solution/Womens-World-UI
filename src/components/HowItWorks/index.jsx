@@ -16,10 +16,8 @@ const HowItWorks = ({
               <div className="col-12 col-md-6 col-lg-3" key={key}>
                 {/* Content */}
                 <div className="service_single_content v2 text-left" data-wow-delay="0.2s">
-                  <div className="step-num">{item.num}</div>
-                  {/* Icon */}
-                  <div className="service_icon">
-                    <img draggable="false" src={item.img} alt="" />
+                  <div className="step-num bg-transparent mb-2">
+                    <img draggable="false" src={item.img} alt="" className='rounded-circle img-thumbnail' width="60" />
                   </div>
                   <h6>{item.title}</h6>
                   <p>{item.text}</p>

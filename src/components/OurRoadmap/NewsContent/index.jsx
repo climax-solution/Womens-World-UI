@@ -16,7 +16,7 @@ const NewsContent = ({
                 </a>
                 {addCboxElementLink && <a className="colorbox cboxElement" href="#" />}
             </div>
-            <ul>
+            <ul className="roadmap-list">
                 {
                     text.map((_text, idx) => (
                         <li key={idx} className="text-white">{_text}</li>

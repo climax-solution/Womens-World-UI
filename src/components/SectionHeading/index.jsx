@@ -1,4 +1,4 @@
-const SectionHeading = ({ClassTitle="", title , otherTitle , text , addWhite=false}) => {
+const SectionHeading = ({ClassTitle="", title , otherTitle }) => {
 
   return (
     <div className="section-heading text-center">
@@ -7,7 +7,6 @@ const SectionHeading = ({ClassTitle="", title , otherTitle , text , addWhite=fal
         <span className={ClassTitle}>{title}</span>
       </div>
       <h2 data-aos="fade-up">{otherTitle ? otherTitle : title}</h2>
-      <p data-aos="fade-up">{text}</p>
     </div>
   );
 }

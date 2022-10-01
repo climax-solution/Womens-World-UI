@@ -34,15 +34,13 @@
             ]
         },
         "footer":{
-            "logo":"./img/core-img/logo.png",
+            "logo":"./img/core-img/logo.jpg",
             "title":"CV Builder",
-            "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.",
-            "ListIcon":[
-                {"ico":"fa fa-facebook"},
-                {"ico":"fa fa-twitter"},
-                {"ico":"fa fa-google-plus"},
-                {"ico":"fa fa-instagram"},
-                {"ico":"fa fa-linkedin"}
+            "text":"Womans world is a subsidiary of NFT Developments. NFT Developments is a WEB 3 development company based in New Zealand.",
+            "socials":[
+                {"ico":"fa fa-facebook", "link": "https://m.facebook.com/NFTDevelopments/"},
+                {"ico":"fa fa-twitter", "link": "https://twitter.com/nftdevelopments/"},
+                {"ico":"fa fa-instagram", "link": "https://www.instagram.com/nftdevelopments/"}
             ],
             "NAVIGATE":[
                 {"text":"Advertisers"},
@@ -166,32 +164,32 @@
         "HowItWorks":{
             "SectionHeading":{
                 "title":"How it Works",
-                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+                "text":"If everyone is moving forward together, then success takes care of itself."
             },
             "list":[
                 {
-                    "num":"Stage 01",
-                    "img":"img/icons/i1.png",
-                    "title":"Discover New NFTs",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                    "num":"Step 1",
+                    "img":"img/collection/collection1.png",
+                    "title":"WW Board project proposal submissions",
+                    "text":"WW board to put forth project proposals to the community regarding the platform build of Womans world."
                 },
                 {
-                    "num":"Stage 02",
-                    "img":"img/icons/i2.png",
-                    "title":"Connect Your Wallet",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                    "num":"Step 2",
+                    "img":"img/collection/collection2.png",
+                    "title":"WW holders vote.",
+                    "text":"WW holders vote on Womans Worlds proposals. Non weighted votes 1 vote per WW holder."
                 },
                 {
-                    "num":"Stage 03",
-                    "img":"img/icons/i3.png",
-                    "title":"Start Minting NFTs",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                    "num":"Step 3",
+                    "img":"img/collection/collection3.png",
+                    "title":"WW Development team to fullfill community vote",
+                    "text":"Womens World is a subsidiary of NFT Developments. NFT Developments is a WEB 3 Development company based out of NZ. NFT Developments will build Womans World platforms."
                 },
                 {
-                    "num":"Stage 04",
-                    "img":"img/icons/i4.png",
-                    "title":"List NFTs for Sale",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maxi ut accumsan ut, posuere sit."
+                    "num":"Step 4",
+                    "img":"img/collection/collection4.png",
+                    "title":"Womans World platforms released",
+                    "text":"On release of womans world platforms, WW board will continue proposals to Womans World community as to continue project growth."
                 }
             ]
         },
