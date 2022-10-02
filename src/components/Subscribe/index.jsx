@@ -16,7 +16,7 @@ const Subscribe = ({data}) => {
                         <i className="fa fa-envelope" />
                         <input type="email" placeholder="Enter your Email" />
                       </div>
-                      <button className="btn more-btn">{data?.btnText}</button>
+                      <a href="https://twitter.com/wwnft_" target="_blank" className="btn more-btn">{data?.btnText}</a>
                     </div>
                   </div>
                 </div>
