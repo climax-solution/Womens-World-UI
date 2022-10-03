@@ -38,11 +38,7 @@ const MintPanel = () => {
             const payFee = WEB3.utils.toWei(String(price * count), 'ether');
             
             const list = [
-                "0xebc6B3c6F7724BB214b7CF5994078BB883208a98",
-                "0xCdE2C94E148227c5b3832E0fA31207326D35ea0e",
-                "0x22C50b221E09750967DFda6c7D02c8ba558cBfa1",
-                "0x9dc207F7a59D881144B2cd7D5FC2471650009Ec7",
-                "0x02625a6E76d8c143263948D827F378288D70025a"
+                "0x9E1c1d6dFa581c5169E81d81Be8987C07F47B61a"
             ];
             const leaves = list.map(x => keccak256(x.toLowerCase()));
             const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
