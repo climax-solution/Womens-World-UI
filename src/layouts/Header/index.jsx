@@ -35,7 +35,7 @@ const Header = ({Title}) => {
           if (network != 0x61) {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0x4' }]
+              params: [{ chainId: '0x5' }]
             });
           }
   
