@@ -964,7 +964,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     .shrink{animation:none;}
     .login-btn{
         margin-left: 15px !important;
-        margin-top: 15px !important
+        /* margin-top: 15px !important */
     }
     .navbar-collapse .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
@@ -6404,4 +6404,15 @@ body.light-version {
 
 .roadmap-list li{
     list-style-type: circle;
+}
+
+.mint-group {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 500px ) {
+    .mySwiper {
+        max-width: 240px;
+        max-height: 240px;
+    }
 }

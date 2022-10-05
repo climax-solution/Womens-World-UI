@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import {useEffect} from 'react'
 import data from "../../data/static.json"
 
 import {Addshrink , moveSmooth} from "../../utils/"
@@ -8,13 +8,10 @@ import './header.css'
 import Preloader from '../../components/Preloader'
 
 import { NavLink } from 'react-router-dom'
-import { useAppContext } from '../../utils/context'
-import Web3 from 'web3'
+import ConnectWallet from '../../components/ConnectWallet'
 
 const Header = ({Title}) => {
 
-  const { setWEB3, setAccount } = useAppContext();
-  const [walletAddress, setWalletAddress] = useState('');
   useEffect(() => {
       Addshrink()
   },[])
@@ -23,33 +20,6 @@ const Header = ({Title}) => {
       moveSmooth()
   },[])
 
-  const connectWallet = async() => {
-    try {
-      if (window.ethereum) {
-        try {
-          const accounts = await window.ethereum.request({
-            method: "eth_requestAccounts"
-          });
-          const web3 = new Web3(window.ethereum);
-          const network = await web3.eth.getChainId();
-          if (network != 0x61) {
-            await window.ethereum.request({
-              method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0x5' }]
-            });
-          }
-  
-          setWalletAddress(accounts[0]);
-          setWEB3(web3);
-          setAccount(accounts[0]);
-        } catch(err) {
-          console.log(err);
-        }
-      }
-    } catch(err) {
-
-    }
-  }
 
   return (
     <>
@@ -70,10 +40,7 @@ const Header = ({Title}) => {
                   <NavLink className="nav-link" to={item.path}>{item.nameLink}</NavLink>
                 </li>
               ))}
-
-              <li className="lh-55px" key={"xy"} onClick={!walletAddress ? connectWallet : null}><span className="btn login-btn ml-50">{
-                walletAddress ? (walletAddress.slice(0, 8) + '...' + walletAddress.slice(-5) ) : "Connect Wallet"
-              }</span></li>
+              <ConnectWallet notHeader={false}/>
             </ul>
           </div>
         </div>
