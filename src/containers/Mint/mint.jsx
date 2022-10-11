@@ -89,7 +89,7 @@ const MintPanel = () => {
                     <ArtSlider/>
                 </div>
                 <div className='col-12 col-lg-6'>
-                    <div className='mint-group mx-auto'>
+                    <div className='mint-group mx-auto text-center'>
                         <h1>Womens World</h1>
                         <p>Please mint your NFT</p>
                         <div className='d-flex align-items-center justify-content-between'>
