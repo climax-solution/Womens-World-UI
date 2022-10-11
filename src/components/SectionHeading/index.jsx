@@ -1,4 +1,4 @@
-const SectionHeading = ({ClassTitle="", title , otherTitle }) => {
+const SectionHeading = ({ClassTitle="", title , text }) => {
 
   return (
     <div className="section-heading text-center">
@@ -6,7 +6,7 @@ const SectionHeading = ({ClassTitle="", title , otherTitle }) => {
       <div className="dream-dots justify-content-center" data-aos="fade-up">
         <span className={ClassTitle}>{title}</span>
       </div>
-      <h2 data-aos="fade-up">{otherTitle ? otherTitle : title}</h2>
+      <p data-aos="fade-up">{text}</p>
     </div>
   );
 }

@@ -9,7 +9,6 @@ import FAQ from "../../components/FAQ"
 import data from "../../data/static.json"
 import WelcomeArea from "./WelcomeArea"
 import TeamArea from "../../components/TeamArea"
-import ContactArea from "../../components/ContactArea"
 
 const HomeContainer = () => {
 
@@ -36,7 +35,6 @@ const HomeContainer = () => {
       <OurRoadmap data={data[0].OurRoadmap} />
       <FAQ data={data[0].FAQ} />
       <TeamArea data={data[0].TeamArea} />
-      <ContactArea data={data[0].ContactArea} />
     </>
   )
 }

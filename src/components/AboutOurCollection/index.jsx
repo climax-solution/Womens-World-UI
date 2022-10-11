@@ -13,7 +13,7 @@ const AboutOurCollection = ({
           <div className="row align-items-center">
             <div className={ClassBxImgUp}>
               <div className={ClassBxImg} data-aos="fade-up">
-                {AboutOurCollectionImg ? <img draggable="false" src={AboutOurCollectionImg} className="rounded-about" alt="" /> : <img draggable="false" src={data.img} className="rounded-about" alt="" />}
+                {AboutOurCollectionImg ? <img draggable="false" src={AboutOurCollectionImg} className="rounded-about w-100" alt="" /> : <img draggable="false" src={data.img} className="rounded-about w-100" alt="" />}
                 {addImgRings && <img draggable="false" src="img/core-img/rings.png" className="center-block img-responsive rings " alt=""/>}
               </div>
             </div>

@@ -2827,7 +2827,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .service_single_content p{
     margin-bottom: 0;
-    word-break: break-all;
+    /* word-break: break-all; */
 }
 .light-version .service_single_content.food{
     background: #5a20c6;

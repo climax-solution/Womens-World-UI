@@ -25,7 +25,17 @@ const FAQ = ({data}) => {
                     <dl style={{marginBottom: 0}} key={key}>
                       <dt className="wave" data-bs-toggle="collapse" data-bs-target={`#${item.ID}`} aria-expanded="false">{item.title}</dt>
                       <dd data-aos="fade-up" id={item.ID} aria-labelledby="headingOne" data-bs-parent="#basicAccordion" className="accordion-collapse collapse">
-                          <p className="accordion-body">{item.text}</p>
+                          <p className="accordion-body">
+                            {
+                              typeof item.text == 'string' ? item.text : <>
+                                {
+                                  item.text.map((itm, idx) => (
+                                    <p key={`${item.ID}${idx}`}>{itm}</p>
+                                  ))
+                                }
+                              </>
+                            }
+                          </p>
                       </dd>
                     </dl>
                   ))}

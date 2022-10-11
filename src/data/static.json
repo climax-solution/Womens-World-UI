@@ -12,20 +12,12 @@
                     "nameLink":"About Us"
                 },
                 {
-                    "path":"/collection",
-                    "nameLink":"Collection"
-                },
-                {
                     "path":"/faq",
                     "nameLink":"FAQ"
                 },
                 {
                     "path":"/roadmap",
                     "nameLink":"Roadmap"
-                },
-                {
-                    "path":"/contact-us",
-                    "nameLink":"Contact"
                 },
                 {
                     "path":"/mint",
@@ -110,8 +102,8 @@
                 "title":"Woman’s world NFT Collection Created and Crafted With Love",
                 "specialHead":"300 / 2222 NFT Minted",
                 "text":"She needed a hero. So that’s what she became",
-                "btnUp":"contact us",
-                "btnDown":" Learn more"
+                "btnUp":"about us",
+                "btnDown":"mint here"
             },
             "AboutOurCollectionImg":"img/core-img/about.png"
         },
@@ -157,7 +149,7 @@
             "img":"img/core-img/about.png",
             "dreamDotsText":"Creative NFT Collection",
             "title":"About Our Collection",
-            "textUp":"Womens world is built on the prime web 3 model of inclusiveness. Womens World gives positive web 3 experiences to all holders in hope we all thrive and succeed together.",
+            "textUp":"Womans world is built on the prime web 3 model of inclusiveness. Womans World gives positive web 3 experiences to all holders in hope we all thrive and succeed together.",
             "textDown":"Womans world Community holders will vote the path taken, based on votes, Womans World Development team then builds it.",
             "btnText":"Get Started"
         },
@@ -183,7 +175,7 @@
                     "num":"Step 3",
                     "img":"img/collection/collection3.png",
                     "title":"WW Development team to fullfill community vote",
-                    "text":"Womens World is a subsidiary of NFT Developments. NFT Developments is a WEB 3 Development company based out of NZ. NFT Developments will build Womans World platforms."
+                    "text":"Womans World is a subsidiary of NFT Developments. NFT Developments is a WEB 3 Development company based out of NZ. NFT Developments will build Womans World platforms."
                 },
                 {
                     "num":"Step 4",
@@ -275,7 +267,7 @@
                         "img":"img/collection/collection1.png",
                         "text":[
                             "Launch Discord",
-                            "Grow Womens World Collaborations",
+                            "Grow Womans World Collaborations",
                             "Successful free mint and launch",
                             "Implement a board of Woman"
                         ]
@@ -321,7 +313,7 @@
                         "img":"img/collection/collection4.png",
                         "addCboxElementLink":true,
                         "text":[
-                            "Release Womens World Beta Platform for testing",
+                            "Release Womans World Beta Platform for testing",
                             "Implement Diamond hand benefits based on holding time",
                             "Strengthen and add benefits to Womans World holders"
                         ]
@@ -331,37 +323,73 @@
         },
         "FAQ":{
             "SectionHeading":{
-                "title":"Out Top FAQ",
-                "otherTitle":"Frequently Questions",
+                "title":"Woman’s World FAQ’s",
+                "otherTitle":"What are you doing for others?",
                 "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
             },
             "listQues":[
                 {
-                    "title":"What are the objectives of this Token?",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "title":"What is Woman’s World Supply?",
+                    "text":"Supply is 2222 “Angels Number”.",
                     "ID":"Q1"
                 },
                 {
-                    "title":"What is the best features and services we deiver?",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "title":"What Blockchain is Woman’s World NFT?",
+                    "text":"Ethereum Blockchain.",
                     "ID":"Q2"
                 },
                 {
-                    "title":"Why this ICO important to me?",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "title":"Where can I buy a Woman’s World NFT?",
+                    "text":"Opensea.",
                     "ID":"Q3"
                 },
                 {
-                    "title":"how may I take part in and purchase this Token?",
-                    "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti",
+                    "title":"What is Woman’s world mint price?",
+                    "text":[
+                        "Whitelisted wallets get 2 x free mints and pay 0.005 ETH per extra NFT.",
+                        "Max 5 mints per wallet.",
+                        "Public mint get 1 x free mint per wallet and pay 0.007 ETH per extra NFT.",
+                        "3 max per wallet."
+                    ],
                     "ID":"Q4"
+                },
+                {
+                    "title":"How to get whitelisted?",
+                    "text":"Follow Woman’s World twitter account and watch for giveaways: https://twitter.com/wwnft_ ",
+                    "ID":"Q5"
+                },
+                {
+                    "title":"What is Woman’s World?",
+                    "text":"Woman’s World is an all-woman 1/1 collection with traited metadata. Woman’s World NFT is based on the Ethereum blockchain, Woman’s World is a community focused project looking to listen and implement value projects based on community say. Women’s world is a subsidiary of NFT Developments.",
+                    "ID":"Q6"
+                },
+                {
+                    "title":"What are the Benefits of Holding woman’s World NFTs?",
+                    "text":"Holders of Woman’s World NFTs are part of an active community in which each Woman’s World holder will become an integral part of the Woman’s World Vision. Long term holders will benefit from 5k image fetch, Total NFT ownership with fun functions to enable NFT Flexibility. Woman’s world holders to be Auto WL into future NFT Development projects.",
+                    "ID":"Q7"
+                },
+                {
+                    "title":"Who are the team behind Woman’s World NFT?",
+                    "text":"Woman’s World is a subsidiary of NFT Developments, the NFT Developments team are the builders behind woman’s World, the artists behind the Project are: Ruebin (NFT Developments CEO ), his wife Catherine and three daughters (Cara 14 years old, Milah 9 years old, Ruby 7 years old).",
+                    "ID":"Q8"
+                },
+                {
+                    "title":"What type of utility is offered by buying a Woman’s world NFT?",
+                    "text":[
+                        "Auto WL into all future NFT Development projects.",
+                        "5k image fetch available to diamond hand holders.",
+                        "Be actively apart of the decisions and building of Woman’s World platforms.",
+                        "Diamond Hand holders will have NFT Flexibility “To be announced”.",
+                        "NFT Developments team have the options to build NFT play to earn games/ staking platforms with new tokenomics attached, in house NFT platforms that provide holder benefits. All of which will be decided on by the Woman’s World community."
+                    ],
+                    "ID":"Q9"
                 }
             ]
         },
         "TeamArea":{
             "SectionHeading":{
-                "title":"Our Team",
-                "otherTitle":"Awesome Team",
+                "title":"Woman’s World Team",
+                "otherTitle":"Alone we can do so little but together we can do so muc",
                 "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
             },
             "listQues":[
@@ -416,40 +444,6 @@
             "text":"Work hard at being the best version of yourself.",
             "btnText":"Subscribe",
             "img":"img/core-img/ava.png"
-        },
-        "ContactArea":{
-            "SectionHeading":{
-                "title":"Contact us",
-                "otherTitle":"Contact With Us",
-                "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
-            },
-            "list":[
-                {
-                    "ClassUp":"col-12 col-md-6",
-                    "nameInput":"name",
-                    "title":"Name",
-                    "addTextArea":false
-                },
-                {
-                    "ClassUp":"col-12 col-md-6",
-                    "nameInput":"email",
-                    "title":"Email",
-                    "addTextArea":false
-                },
-                {
-                    "ClassUp":"col-12",
-                    "nameInput":"subject",
-                    "title":"Subject",
-                    "addTextArea":false
-                },
-                {
-                    "ClassUp":"col-12",
-                    "nameInput":"message",
-                    "title":"Message",
-                    "addTextArea":true
-                }
-            ],
-            "send":"Send Message"
         },
         "Contact":{
             "SectionHeading":{

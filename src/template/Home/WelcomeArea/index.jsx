@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 import Web3 from "web3";
 import ArtSlider from "../../../components/ArtSlider";
 import abi from "../../../data/abi.json";
@@ -34,8 +35,8 @@ const WelcomeArea = ({data}) => {
                   </div>
                   <p className="w-text">{data.text}</p>
                   <div className="dream-btn-group">
-                    <a href="#" className="btn more-btn mr-3">{data.btnUp}</a>
-                    <a href="#" className="btn more-btn">{data.btnDown}</a>
+                    <Link to="/about-us" className="btn more-btn mr-3">{data.btnUp}</Link>
+                    <Link to="/mint" className="btn more-btn">{data.btnDown}</Link>
                   </div>
                 </div>
               </div>

@@ -6,8 +6,6 @@ import { NotificationContainer } from "react-notifications";
 
 import Home from './pages/Home'
 import About from './pages/About'
-import Contact from './pages/Contact'
-import Collection from './pages/Collection'
 import FAQ from './pages/FAQ'
 import Roadmap from './pages/Roadmap'
 import Mint from "./pages/Mint";
@@ -49,8 +47,6 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/about-us" component={About} />
           <Route path="/faq" component={FAQ} />
-          <Route path="/collection" component={Collection} />
-          <Route path="/contact-us" component={Contact} />
           <Route path="/roadmap" component={Roadmap} />
           <Route path="/mint" component={Mint} />
   			</Switch>
