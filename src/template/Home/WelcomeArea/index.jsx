@@ -10,7 +10,7 @@ const WelcomeArea = ({data}) => {
 
   useEffect(() => {
     async function getMintedNumber() {
-      const web3 = new Web3("https://data-seed-prebsc-1-s1.binance.org:8545/");
+      const web3 = new Web3("https://goerli.infura.io/v3/8f5e92cb285941fdb81c80e01a6ca167");
       const contract = new web3.eth.Contract(abi, contractAddress.address);
       const _minted = await contract.methods.totalSupply().call();
       setMinted(_minted);
