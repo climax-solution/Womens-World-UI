@@ -70,7 +70,7 @@ const MintPanel = () => {
             const leaf = keccak256(account);
             const proof = tree.getHexProof(leaf);
             const root = tree.getRoot();
-            const isWhite = tree.verify(proof, root, leaf);
+            const isWhite = tree.verify(proof, leaf, root);
             const isPublic = await contract.methods.isPublic().call();
             const price = isPublic ? 0.007 : 0.005;
             const whiteMint = await contract.methods.whiteMintedNumber(account).call();
@@ -95,7 +95,7 @@ const MintPanel = () => {
             }
 
 
-            await contract.methods.mint(mintAmount, proof).send({
+            await contract.methods.mint(count, proof).send({
                 from: account,
                 value: payFee
             });
