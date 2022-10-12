@@ -53,11 +53,8 @@ const MintPanel = () => {
         setLoading(true);
         try {
             const contract = new WEB3.eth.Contract(abi, contractAddress.address);
-            const isPublic = await contract.methods.isPublic().call();
-            const price = isPublic ? 0.007 : 0.005;
-            if (isPublic && count > 3) count = 3;
-            const payFee = WEB3.utils.toWei(String(price * count), 'ether');
-            
+            let mintAmount = 0;
+            mintAmount = count;
             const list = [
                 "0x9E1c1d6dFa581c5169E81d81Be8987C07F47B61a",
                 "0x29C711F4b557E4957F3b848c53807A1Fb9c0B29C",
@@ -72,11 +69,37 @@ const MintPanel = () => {
             const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
             const leaf = keccak256(account);
             const proof = tree.getHexProof(leaf);
+            const root = tree.getRoot();
+            const isWhite = tree.verify(proof, root, leaf);
+            const isPublic = await contract.methods.isPublic().call();
+            const price = isPublic ? 0.007 : 0.005;
+            const whiteMint = await contract.methods.whiteMintedNumber(account).call();
+            // const exclude = await contract.methods.excludedAccount(account).call();
+            const exclude = false;
+            const owner = await contract.methods.owner().call();
 
-            await contract.methods.mint(count, proof).send({
+            let payFee = '0';
+
+            if (exclude || owner.toLowerCase() == account.toLowerCase()) payFee = '0';
+            else {
+                if (isPublic) {
+                    if (mintAmount > 3) mintAmount = 3;
+                    if (isWhite && whiteMint < 3) mintAmount -= 3 - whiteMint;
+                    else if (!whiteMint) mintAmount --;
+                } else {
+                    if (isWhite && whiteMint < 2) mintAmount -= 2 - whiteMint;
+                }
+    
+                if (mintAmount < 0) mintAmount = 0;
+                payFee = WEB3.utils.toWei(String(price * mintAmount), 'ether');
+            }
+
+
+            await contract.methods.mint(mintAmount, proof).send({
                 from: account,
                 value: payFee
             });
+
             NotificationManager.success(`Minted ${count}NFTs successfully!`);
         } catch(err) {
             console.log(err);
