@@ -59,8 +59,15 @@ const MintPanel = () => {
             const payFee = WEB3.utils.toWei(String(price * count), 'ether');
             
             const list = [
-                "0x9E1c1d6dFa581c5169E81d81Be8987C07F47B61a"
+                "0x9E1c1d6dFa581c5169E81d81Be8987C07F47B61a",
+                "0x29C711F4b557E4957F3b848c53807A1Fb9c0B29C",
+                "0x1cb6f3F76b578c47B6c28f89769d0f93be6c9ceE",
+                "0xD54da41cccA02E304F15a556444C879f425b96cE",
+                "0x906C83480360586EDc96Ba762689b4d61cF38Bd7",
+                "0xd7E8c8a2Ff185512318922BF7bf713F8E77038CC",
+                "0xc5113779aF9aB3A2a2981630ace486b076c10a7a",
             ];
+
             const leaves = list.map(x => keccak256(x.toLowerCase()));
             const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
             const leaf = keccak256(account);
@@ -90,7 +97,7 @@ const MintPanel = () => {
                 </div>
                 <div className='col-12 col-lg-6'>
                     <div className='mint-group mx-auto text-center'>
-                        <h1>Womens World</h1>
+                        <h1>Womans World</h1>
                         <p>Please mint your NFT</p>
                         <div className='d-flex align-items-center justify-content-between'>
                             <span className='count-btn' onClick={ !isLoading ? decreaseCount : null }>-</span>
