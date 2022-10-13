@@ -80,9 +80,7 @@
 /* Mobile Version */
 
 @media only screen and (max-width: 767px) {
-    .login-btn {
-        margin: 30px;
-    }
+    
     .welcome-content h2 {
         font-size: 24px;
     }
@@ -221,5 +219,46 @@
     }
     .single-team-member:after {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px ) {
+    .mySwiper {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (max-width: 480px) {
+    .count-down .tab-metr{
+        font-size: 14px
+    }
+}
+
+@media (min-width: 1200px){
+	.demo .container {
+	    max-width: 1280px;
+	}
+    .simple-numbers-wrapper{
+        margin-top: 150px;
+    }
+    .hero-section .illusto img{
+        max-width: 140%;
+        margin-left: -100px;
+        margin-top: 60px;
+    }
+    .hero-section .illusto-1 img{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .hero-section .illusto-2 img{
+        max-width: 160%;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+    .hero-section .curved{
+        max-width: 100%;
+        margin-top: 30px
     }
 }

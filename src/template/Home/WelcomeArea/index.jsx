@@ -36,7 +36,7 @@ const WelcomeArea = ({data}) => {
                   <p className="w-text">{data.text}</p>
                   <div className="dream-btn-group">
                     <Link to="/about-us" className="btn more-btn mr-3">{data.btnUp}</Link>
-                    <Link to="/mint" className="btn more-btn">{data.btnDown}</Link>
+                    <a href="/" className="btn more-btn" onClick={(e) => e.preventDefault()}>{data.btnDown}</a>
                   </div>
                 </div>
               </div>

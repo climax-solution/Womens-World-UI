@@ -2,7 +2,7 @@ import data from "../../data/static.json"
 
 import Breadcumb from '../../components/Breadcumb'
 import AboutOurCollection from "../../components/AboutOurCollection"
-import Subscribe from "../../components/Subscribe"
+import TeamArea from "../../components/TeamArea";
 
 const AboutContainer = () => {
 
@@ -17,7 +17,7 @@ const AboutContainer = () => {
         data={data[0].AboutOurCollection}
         AboutOurCollectionImg={data[0].Home.AboutOurCollectionImg}
       />
-      <Subscribe data={data[0].Subscribe} />
+      <TeamArea data={data[0].TeamArea}/>
     </>
   );
 }

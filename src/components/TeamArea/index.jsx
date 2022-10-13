@@ -18,8 +18,8 @@ const TeamArea = ({data}) => {
             {/* Single Team Member */}
             {data?.listQues?.map((item , key) => (
             
-                <div className="col-md-6 col-lg-3 mb-30" key={key}>
-                <div className="team-item">
+                <div className="col-md-6 col-lg-4 mb-30" key={key}>
+                <div className="team-item h-100">
                     <div className="mb-30 position-relative d-flex align-items-center">
                         <span className="socials d-inline-block">
                             {item.icons.map((itemIcon , key) => <a key={key} href="#" className={itemIcon} />)}

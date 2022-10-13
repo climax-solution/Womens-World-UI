@@ -761,6 +761,7 @@ ol {
     background: linear-gradient(to right, #a4bafe 0%, #7450fe 100%);
     height: 35px;
     border-radius: 5px;
+    margin-left: 15px !important;
     letter-spacing: 1px;
 }
 
@@ -962,10 +963,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 @media(max-width: 992px){
     .shrink{animation:none;}
-    .login-btn{
-        margin-left: 15px !important;
-        /* margin-top: 15px !important */
-    }
+    
     .navbar-collapse .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
         color: #333
@@ -6225,33 +6223,7 @@ body.light-version {
     padding: 5px 15px;
     transition: all .3s ease-in;
 }
-@media (min-width: 1200px){
-	.demo .container {
-	    max-width: 1280px;
-	}
-    .simple-numbers-wrapper{
-        margin-top: 150px;
-    }
-    .hero-section .illusto img{
-        max-width: 140%;
-        margin-left: -100px;
-        margin-top: 60px;
-    }
-    .hero-section .illusto-1 img{
-        max-width: 100%;
-        margin-left: 0px;
-        margin-top: 60px;
-    }
-    .hero-section .illusto-2 img{
-        max-width: 160%;
-        margin-left: -150px;
-        margin-top: 0px;
-    }
-    .hero-section .curved{
-        max-width: 100%;
-        margin-top: 30px
-    }
-}
+
 .demo-item:hover{
     -webkit-box-shadow: 0 1px 28px rgba(255,152,0,.66);
     box-shadow: 0 1px 28px rgba(255,152,0,.66);
@@ -6302,11 +6274,6 @@ body.light-version {
     font-size: 11px;
     margin-bottom: 15px;
     color: #ffffff;
-}
-@media (max-width: 480px) {
-    .count-down .tab-metr{
-        font-size: 14px
-    }
 }
 
 .slideCountdown{
@@ -6408,13 +6375,6 @@ body.light-version {
 
 .mint-group {
     max-width: 400px;
-}
-
-@media screen and (max-width: 500px ) {
-    .mySwiper {
-        max-width: 240px;
-        max-height: 240px;
-    }
 }
 
 .lh-1 {

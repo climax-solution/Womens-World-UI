@@ -11,32 +11,14 @@ import 'swiper/swiper.min.css';
 import "swiper/modules/effect-cards/effect-cards.min.css";
 import ArtSlider from '../../components/ArtSlider';
 import ConnectWallet from '../../components/ConnectWallet';
-
+import { useRouteMatch } from 'react-router-dom'
 
 const MintPanel = () => {
 
     const { WEB3, account, isLoading, setLoading } = useAppContext();
     const [count, setCount] = useState(1);
     const [maxLimit, setMaxLimit] = useState(5);
-    const [showWalletButton, setShowWalletButton] = useState(false);
-
-
-    useEffect(() => {
-        async function getPublicState() {
-            const contract = new WEB3.eth.Contract(abi, contractAddress.address);
-            const isPublic = await contract.methods.isPublic().call();
-            console.log(isPublic);
-            if (isPublic) setMaxLimit(3);
-        }
-        if (WEB3) getPublicState();
-
-        window.addEventListener('resize', () => {
-            if (window.innerWidth < 992) {
-                setShowWalletButton(true);
-            } else setShowWalletButton(false);
-        });
-        
-    }, [WEB3])
+    const match = useRouteMatch('/mint');
 
     const increaseCount = () => {
         if (count < maxLimit) setCount(count + 1);
@@ -95,14 +77,12 @@ const MintPanel = () => {
                 payFee = WEB3.utils.toWei(String(price * mintAmount), 'ether');
             }
 
-            console.log(count, isWhite, mintAmount);
-
             await contract.methods.mint(count, proof).send({
                 from: account,
                 value: payFee
             });
 
-            NotificationManager.success(`Minted ${count}NFTs successfully!`);
+            NotificationManager.success(`Minted ${count} NFTs successfully!`);
         } catch(err) {
             console.log(err);
             if (err?.code != 4001) {
@@ -134,7 +114,7 @@ const MintPanel = () => {
                                 { isLoading ? "Minting ..." : "Mint"}
                             </button>
                             {
-                                showWalletButton ? <ConnectWallet/> : ""
+                                match?.isExact ? <ConnectWallet/> : ""
                             }
                         </div>
                     </div>

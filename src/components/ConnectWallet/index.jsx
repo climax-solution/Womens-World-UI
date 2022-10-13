@@ -35,12 +35,18 @@ const ConnectWallet = ({ notHeader = true}) => {
     
         }
     }
+
+    const diconnect = () => {
+      setWalletAddress('');
+      setAccount('');
+    }
+
     return(
-        <li className={ (!match && notHeader) ? "lh-55px" : "d-flex align-items-center"} key={"xy"} onClick={!walletAddress ? connectWallet : null}>
+        <li className={ (!match && notHeader) ? "lh-55px" : "d-flex align-items-center"} key={"xy"} onClick={!walletAddress ? connectWallet : diconnect}>
             <span className={`btn ml-50 ${ (match && notHeader) ? "d-flex align-items-center h-100 m-0" : ""} login-btn `}>
                 <span>
                 {
-                    walletAddress ? (walletAddress.slice(0, 8) + '...' + walletAddress.slice(-5) ) : "Connect Wallet"
+                    walletAddress ? "Disconnect Wallet" : "Connect Wallet"
                 }
                 </span>
             </span>
