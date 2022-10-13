@@ -6416,3 +6416,7 @@ body.light-version {
         max-height: 240px;
     }
 }
+
+.lh-1 {
+    line-height: 13px;
+}

@@ -423,8 +423,8 @@
                         "fa fa-instagram"
                     ],
                     "img":"img/team-img/2.png",
-                    "name":"Serena Whatson",
-                    "title":"UI/UX Designer"
+                    "name":"Catherine Reti",
+                    "title":"WW Board Member & Artist"
                 },
                 {
                     "icons":[
@@ -434,8 +434,63 @@
                         "fa fa-instagram"
                     ],
                     "img":"img/team-img/4.png",
-                    "name":"Joana Christian",
-                    "title":"NFT Artist"
+                    "name":"Remo888",
+                    "title":"WW Board Member"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/5.png",
+                    "name":"Dina",
+                    "title":"WW Board Member"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/6.png",
+                    "name":"Ghostburger",
+                    "title":"WW Board Member"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/7.png",
+                    "name":"Cara Reti (14)",
+                    "title":"Artist"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/8.png",
+                    "name":"Milah Reti (9)",
+                    "title":"Artist"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/9.png",
+                    "name":"Ruby Reti (7)",
+                    "title":"Artist"
                 }
             ]
         },

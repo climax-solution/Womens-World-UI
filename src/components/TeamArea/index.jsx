@@ -30,7 +30,7 @@ const TeamArea = ({data}) => {
                     </div>
                     <div className="team-content">
                         <h5 className="mb-2">{item.name}</h5>
-                        <p className="text-uppercase mb-0">{item.title}</p>
+                        <p className={`text-uppercase mb-0 ${key == 2 ? "lh-1" : "" }`}>{item.title}</p>
                     </div>
                 </div>
                 </div>

@@ -35,6 +35,7 @@ const MintPanel = () => {
                 setShowWalletButton(true);
             } else setShowWalletButton(false);
         });
+        
     }, [WEB3])
 
     const increaseCount = () => {
@@ -94,6 +95,7 @@ const MintPanel = () => {
                 payFee = WEB3.utils.toWei(String(price * mintAmount), 'ether');
             }
 
+            console.log(count, isWhite, mintAmount);
 
             await contract.methods.mint(count, proof).send({
                 from: account,
