@@ -7,12 +7,10 @@ import './header.css'
 
 import Preloader from '../../components/Preloader'
 
-import { NavLink, useRouteMatch } from 'react-router-dom'
-import ConnectWallet from '../../components/ConnectWallet'
+import { NavLink } from 'react-router-dom'
 
 const Header = ({Title}) => {
 
-  const match = useRouteMatch('/mint');
   useEffect(() => {
       Addshrink()
   },[])
@@ -40,7 +38,6 @@ const Header = ({Title}) => {
                   <NavLink className="nav-link" to={item.path}>{item.nameLink}</NavLink>
                 </li>
               ))}
-              { match?.isExact ? "" : <ConnectWallet notHeader={false}/>}
             </ul>
           </div>
         </div>

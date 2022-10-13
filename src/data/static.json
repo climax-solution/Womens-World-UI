@@ -491,6 +491,17 @@
                     "img":"img/team-img/9.png",
                     "name":"Ruby Reti (7)",
                     "title":"Artist"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/10.png",
+                    "name":"Zarli",
+                    "title":"WW Moderator"
                 }
             ]
         },
