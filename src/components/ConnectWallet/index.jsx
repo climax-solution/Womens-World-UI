@@ -43,11 +43,14 @@ const ConnectWallet = ({ notHeader = true}) => {
 
     return(
         <li className={ (!match && notHeader) ? "lh-55px" : "d-flex align-items-center"} key={"xy"} onClick={!walletAddress ? connectWallet : diconnect}>
-            <span className={`btn ml-50 ${ (match && notHeader) ? "d-flex align-items-center h-100 m-0" : ""} login-btn `}>
-                <span>
+            <span className={`btn ml-50 flex-column justify-content-center ${ (match && notHeader) ? "d-flex h-100 m-0" : ""} login-btn `}>
+                <span style={ walletAddress ? { maxHeight: "1rem"} : {}}>
                 {
                     walletAddress ? "Disconnect Wallet" : "Connect Wallet"
                 }
+                </span>
+                <span>
+                  { walletAddress ? ("(" + walletAddress.slice(0, 6) + '...' + walletAddress.slice(-4) + ")") : ""} 
                 </span>
             </span>
         </li>

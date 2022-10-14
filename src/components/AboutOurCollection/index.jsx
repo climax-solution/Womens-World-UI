@@ -25,9 +25,6 @@ const AboutOurCollection = ({
                 <h4 data-aos="fade-up" className="text-center">{data.title}</h4>
                 <p data-aos="fade-up" className="text-center">{data.textUp}</p>
                 <p data-aos="fade-up" className="text-center">{data.textDown}</p>
-                <div className="d-flex justify-content-center">
-                  <a className="btn more-btn mx-auto" href="#">{data.btnText}</a>
-                </div>
               </div>
             </div>
           </div>
