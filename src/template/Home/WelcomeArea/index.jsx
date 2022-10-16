@@ -11,7 +11,7 @@ const WelcomeArea = ({data}) => {
 
   useEffect(() => {
     async function getMintedNumber() {
-      const web3 = new Web3("https://goerli.infura.io/v3/8f5e92cb285941fdb81c80e01a6ca167");
+      const web3 = new Web3("https://eth-goerli.g.alchemy.com/v2/LYuZuxHIZHqSqR5qCsT768jCORqGoXqn");
       const contract = new web3.eth.Contract(abi, contractAddress.address);
       const _minted = await contract.methods.totalSupply().call();
       setMinted(_minted);
