@@ -11,7 +11,7 @@ const WelcomeArea = ({data}) => {
 
   useEffect(() => {
     async function getMintedNumber() {
-      const web3 = new Web3("https://eth-goerli.g.alchemy.com/v2/LYuZuxHIZHqSqR5qCsT768jCORqGoXqn");
+      const web3 = new Web3("https://eth-mainnet.g.alchemy.com/v2/yrauS5JtGGbLJI0w525CUeTK2TcAsOf6");
       const contract = new web3.eth.Contract(abi, contractAddress.address);
       const _minted = await contract.methods.totalSupply().call();
       setMinted(_minted);
@@ -35,8 +35,8 @@ const WelcomeArea = ({data}) => {
                   </div>
                   <p className="w-text">{data.text}</p>
                   <div className="dream-btn-group">
-                    <Link to="/about-us" className="btn more-btn mr-3">{data.btnUp}</Link>
-                    <a href="/" className="btn more-btn" onClick={(e) => e.preventDefault()}>{data.btnDown}</a>
+                    <a href="https://opensea.io/collection/womans-world-nft" target="_blank" className="btn more-btn mr-3">{data.btnUp}</a>
+                    <Link to="/mint" className="btn more-btn">{data.btnDown}</Link>
                   </div>
                 </div>
               </div>

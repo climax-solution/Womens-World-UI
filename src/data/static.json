@@ -20,7 +20,7 @@
                     "nameLink":"Roadmap"
                 },
                 {
-                    "path":"#",
+                    "path":"/mint",
                     "nameLink":"Mint"
                 }
             ]
@@ -102,7 +102,7 @@
                 "title":"Woman’s world NFT Collection Created and Crafted With Love",
                 "specialHead":"300 / 2222 NFT Minted",
                 "text":"She needed a hero. So that’s what she became",
-                "btnUp":"about us",
+                "btnUp":"ww opensea",
                 "btnDown":"mint here"
             },
             "AboutOurCollectionImg":"img/core-img/about.png"
