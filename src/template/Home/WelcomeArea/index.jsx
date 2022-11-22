@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom";
 import Web3 from "web3";
 import ArtSlider from "../../../components/ArtSlider";
 import abi from "../../../data/abi.json";
@@ -36,7 +35,7 @@ const WelcomeArea = ({data}) => {
                   <p className="w-text">{data.text}</p>
                   <div className="dream-btn-group">
                     <a href="https://opensea.io/collection/womans-world-nft" target="_blank" className="btn more-btn mr-3">{data.btnUp}</a>
-                    <Link to="/mint" className="btn more-btn">{data.btnDown}</Link>
+                    <a href="https://womansworldtool.netlify.app" className="btn more-btn" target="_blank">{data.btnDown}</a>
                   </div>
                 </div>
               </div>
