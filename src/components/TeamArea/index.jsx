@@ -25,7 +25,7 @@ const TeamArea = ({data}) => {
                             {item.icons.map((itemIcon , key) => <a key={key} href="#" className={itemIcon} />)}
                         </span>
                         <span className="img-holder d-inline-block">
-                            <img src={item.img} alt="Team" />
+                            <img src={item.img} alt="Team" className='ratio-1x1' />
                         </span>
                     </div>
                     <div className="team-content">

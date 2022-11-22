@@ -8,7 +8,7 @@
             },
             {
                 "internalType": "string",
-                "name": "_defaultURI",
+                "name": "_prevealURI",
                 "type": "string"
             }
         ],
@@ -291,6 +291,24 @@
         "inputs": [
             {
                 "internalType": "address",
+                "name": "to",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "quality",
+                "type": "uint256"
+            }
+        ],
+        "name": "bulkMint",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
                 "name": "",
                 "type": "address"
             }
@@ -498,26 +516,19 @@
     },
     {
         "inputs": [],
-        "name": "publicMintCount",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
         "name": "renounceOwnership",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
     },
     {
-        "inputs": [],
+        "inputs": [
+            {
+                "internalType": "bool",
+                "name": "status",
+                "type": "bool"
+            }
+        ],
         "name": "reveal",
         "outputs": [],
         "stateMutability": "nonpayable",
@@ -739,6 +750,24 @@
     {
         "inputs": [
             {
+                "internalType": "string",
+                "name": "_base",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "preveal",
+                "type": "string"
+            }
+        ],
+        "name": "updateCoreURI",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "internalType": "address",
                 "name": "account",
                 "type": "address"
@@ -796,32 +825,6 @@
         "inputs": [
             {
                 "internalType": "uint256",
-                "name": "count",
-                "type": "uint256"
-            }
-        ],
-        "name": "updatePublicMintCount",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "count",
-                "type": "uint256"
-            }
-        ],
-        "name": "updateWhiteMintCount",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "uint256",
                 "name": "newPrice",
                 "type": "uint256"
             }
@@ -842,19 +845,6 @@
         "name": "updateWhitelistRoot",
         "outputs": [],
         "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "whiteMintCount",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
         "type": "function"
     },
     {

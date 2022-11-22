@@ -19,7 +19,6 @@ const MintPanel = () => {
     const match = useRouteMatch('/mint');
     const { WEB3, account, isLoading, setLoading } = useAppContext();
     const [count, setCount] = useState(1);
-    const [maxLimit, setMaxLimit] = useState(5);
     const [buttonText, setButtonText] = useState("MINT");
 
     const increaseCount = () => {
@@ -27,7 +26,7 @@ const MintPanel = () => {
             NotificationManager.warning("Please connect metamask");
             return;
         }
-        if (count < maxLimit) setCount(count + 1);
+        setCount(count + 1);
     }
 
     const decreaseCount = () => {
@@ -43,7 +42,6 @@ const MintPanel = () => {
             const contract = new WEB3.eth.Contract(abi, contractAddress.address);
             const isPublic = await contract.methods.isPublic().call();
             setButtonText(isPublic ? "Mint is Public" : "Mint is WL");
-            setMaxLimit(isPublic ? 3 : 5);
         }
         if (WEB3) test();
     }, [WEB3, account]);
@@ -71,14 +69,8 @@ const MintPanel = () => {
             const whiteMint = await contract.methods.whiteMintedNumber(account).call();
             const exclude = await contract.methods.excludedAccount(account).call();
             const owner = await contract.methods.owner().call();            
-            const whiteMintCount = await contract.methods.whiteMintCount().call();
-            const publicMintCount = await contract.methods.publicMintCount().call();
             const whitePrice = await contract.methods.whitePrice().call();
             const blackPrice = await contract.methods.blackPrice().call();
-            const balance = await contract.methods.balanceOf(account).call();
-
-            if (isPublic && count > publicMintCount * 1 || !isPublic && count > whiteMintCount * 1) throw Error("Exceed maximum mint amount");
-            if (balance * 1 + count > 5) throw Error('Exceed maximum balance');
 
             const price = isPublic ? WEB3.utils.fromWei(blackPrice) : WEB3.utils.fromWei(whitePrice);
 
@@ -88,7 +80,6 @@ const MintPanel = () => {
             else {
                 if (!isPublic && !isWhite) throw Error("Your account is not in whitelist");
                 if (isPublic) {
-                    if (mintAmount > 3) mintAmount = 3;
                     if (isWhite && whiteMint * 1 < 3) mintAmount -= 3 - whiteMint * 1;
                     else if ( !isWhite && whiteMint * 1 == 0) mintAmount --;
                 } else {
@@ -98,6 +89,9 @@ const MintPanel = () => {
                 if (mintAmount < 0) mintAmount = 0;
                 payFee = WEB3.utils.toWei(String(price * mintAmount), 'ether');
             }
+
+            const ethBalance = await WEB3.eth.getBalance(account);
+            if (+payFee > +ethBalance || !+ethBalance) throw Error("Insufficient funds");
 
             await contract.methods.mint(count, proof).send({
                 from: account,

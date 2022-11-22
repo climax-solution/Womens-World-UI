@@ -6380,3 +6380,7 @@ body.light-version {
 .lh-1 {
     line-height: 13px;
 }
+
+.ratio-1x1 {
+    aspect-ratio: 1;
+}

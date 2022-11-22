@@ -501,7 +501,18 @@
                     ],
                     "img":"img/team-img/10.png",
                     "name":"Zarli",
-                    "title":"WW Moderator"
+                    "title":"WW Board Member & WW Head Mod"
+                },
+                {
+                    "icons":[
+                        "fa fa-facebook",
+                        "fa fa-twitter",
+                        "fa fa-google",
+                        "fa fa-instagram"
+                    ],
+                    "img":"img/team-img/11.png",
+                    "name":"Owa",
+                    "title":"WW Board Member"
                 }
             ]
         },
